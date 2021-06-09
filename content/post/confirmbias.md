@@ -3,7 +3,7 @@ title: "확증 편향과 반례 찾기"
 date: 2021-06-09T14:40:32-07:00
 categories: ["post"]
 tags: [diary, reflection, essay, software-testing]
-draft: true
+draft: false
 ---
 
 나는 오랫동안 확증 편향을 숫자와 논리에 익숙치 않음과 동일시해왔다. 최근 들어 단어의 개념이 새롭게 느껴져 경험을 공유하고자 한다.
