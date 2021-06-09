@@ -2,5 +2,4 @@ publish = "public"
 command = "hugo -t ezhil"
 
 HUGO_VERSION = "0.83.1"
-HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
