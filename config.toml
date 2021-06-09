@@ -19,14 +19,14 @@ disqusShortname = "dongju"
 paginate = 10
 
 # Number of characters to show in summary.
-summaryLength = 20
+summaryLength = 15
 
 [params]
     # Blog subtitle which appears below blog title. Supports markdown.
-    subtitle = "Clean and minimal personal [blog theme for Hugo](https://github.com/vividvilla/ezhil)"
+    subtitle = "Clean and minimal personal blog"
 
     # Content types which are included in home page recent posts list.
-    mainSections = ["post"]
+    mainSections = ["post", "algorithm"]
 
     # Content types which are excludes Disqus comments.
     disableDisqusTypes = ["page"]
@@ -65,14 +65,19 @@ url = "/post"
 weight = 2
 
 [[menu.main]]
-name = "About"
-url = "/about"
+name = "Algorithm"
+url = "/algorithm"
 weight = 3
 
 [[menu.main]]
 name = "Tags"
 url = "/tags"
 weight = 4
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 5
 
 # Social media links which shows up on site header.
 # Uses feather icons for icons. You can [search icon names from here](https://feathericons.com/).
