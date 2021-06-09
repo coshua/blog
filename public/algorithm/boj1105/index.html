@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>백준 1005 해설 파이썬 - 동주의 세상</title><link rel="icon" type="image/png" href=icons/myicon.png /><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="백준 1005 해설 파이썬" />
+<meta property="og:description" content="solved.ac class 5의 essential 문제로, 위상 정렬에 대한 이해가 있다면 어렵지 않게 풀수 있다.
+위상 정렬에 대해서는 따로 알고리즘 포스팅에 정리해놓겠다." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/algorithm/boj1105/" /><meta property="article:section" content="algorithm" />
+<meta property="article:published_time" content="2021-06-08T19:59:19-07:00" />
+<meta property="article:modified_time" content="2021-06-08T19:59:19-07:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="백준 1005 해설 파이썬"/>
+<meta name="twitter:description" content="solved.ac class 5의 essential 문제로, 위상 정렬에 대한 이해가 있다면 어렵지 않게 풀수 있다.
+위상 정렬에 대해서는 따로 알고리즘 포스팅에 정리해놓겠다."/>
+<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:200,300" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="/css/custom.css" />
+	<link rel="stylesheet" type="text/css" href="/css/dark.css" media="(prefers-color-scheme: dark)" />
+	<link rel="stylesheet" type="text/css" href="/css/custom-dark.css" media="(prefers-color-scheme: dark)" />
+
+	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+	<script src="/js/main.js"></script>
+	<script src="/js/abc.js"></script>
+	<script src="/js/xyz.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+
+<body>
+	<div class="container wrapper post">
+		<div class="header">
+	<base href="/">
+	<h1 class="site-title"><a href="/">동주의 세상</a></h1>
+	<div class="site-description"><h2>Clean and minimal personal blog</h2><nav class="nav social">
+			<ul class="flat"><a href="https://github.com/coshua" title="Github"><i data-feather="github"></i></a><a href="https://twitter.com" title="Twitter"><i data-feather="twitter"></i></a></ul>
+		</nav>
+	</div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li>
+				<a href="/">Home</a>
+			</li>
+			
+			<li>
+				<a href="/post">All posts</a>
+			</li>
+			
+			<li>
+				<a href="/algorithm">Algorithm</a>
+			</li>
+			
+			<li>
+				<a href="/tags">Tags</a>
+			</li>
+			
+			<li>
+				<a href="/about">About</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post-header">
+			<h1 class="title">백준 1005 해설 파이썬</h1>
+			<div class="meta">Posted at &mdash; Jun 8, 2021</div>
+		</div>
+
+		<div class="markdown">
+			<p>solved.ac class 5의 essential 문제로, 위상 정렬에 대한 이해가 있다면 어렵지 않게 풀수 있다.</p>
+<p>위상 정렬에 대해서는 따로 알고리즘 포스팅에 정리해놓겠다.</p>
+<p>문제를 풀때 사고방식은 이랬다. 특정 건물 K를 짓기 시작하는 시점은 이전에 지어야 하는 건물들 중 가장 오래 걸리는 건물들을 선택해서 도달한 시점이다. 여기에서 dp 개념이 필요하며, 나머지는 <a href="https://www.acmicpc.net/problem/2252">백준 2252</a> 줄 세우기 문제의 위상 정렬 접근법을 이용한다.</p>
+<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#719e07">import</span> sys
+<span style="color:#719e07">from</span> collections <span style="color:#719e07">import</span> deque
+<span style="color:#b58900">input</span> <span style="color:#719e07">=</span> sys<span style="color:#719e07">.</span>stdin<span style="color:#719e07">.</span>readline
+
+T <span style="color:#719e07">=</span> <span style="color:#b58900">int</span>(<span style="color:#b58900">input</span>())
+<span style="color:#719e07">for</span> test <span style="color:#719e07">in</span> <span style="color:#b58900">range</span>(T):
+    N, K <span style="color:#719e07">=</span> <span style="color:#b58900">map</span>(<span style="color:#b58900">int</span>, <span style="color:#b58900">input</span>()<span style="color:#719e07">.</span>split())
+    time <span style="color:#719e07">=</span> <span style="color:#b58900">list</span>(<span style="color:#b58900">map</span>(<span style="color:#b58900">int</span>, <span style="color:#b58900">input</span>()<span style="color:#719e07">.</span>split()))
+
+    cnt_enter_link <span style="color:#719e07">=</span> [<span style="color:#2aa198">0</span>] <span style="color:#719e07">*</span> (N)
+    graph <span style="color:#719e07">=</span> [[] <span style="color:#719e07">for</span> _ <span style="color:#719e07">in</span> <span style="color:#b58900">range</span>(N)]
+    dp_build_time <span style="color:#719e07">=</span> [<span style="color:#2aa198">0</span>] <span style="color:#719e07">*</span> (N)
+
+    <span style="color:#719e07">for</span> _ <span style="color:#719e07">in</span> <span style="color:#b58900">range</span>(K):
+        a, b <span style="color:#719e07">=</span> <span style="color:#b58900">map</span>(<span style="color:#b58900">int</span>, <span style="color:#b58900">input</span>()<span style="color:#719e07">.</span>split())
+        graph[a <span style="color:#719e07">-</span> <span style="color:#2aa198">1</span>]<span style="color:#719e07">.</span>append(b <span style="color:#719e07">-</span> <span style="color:#2aa198">1</span>)
+        cnt_enter_link[b <span style="color:#719e07">-</span> <span style="color:#2aa198">1</span>] <span style="color:#719e07">+=</span> <span style="color:#2aa198">1</span>
+
+    q <span style="color:#719e07">=</span> deque()
+    <span style="color:#719e07">for</span> i <span style="color:#719e07">in</span> <span style="color:#b58900">range</span>(N):
+        <span style="color:#719e07">if</span> cnt_enter_link[i] <span style="color:#719e07">==</span> <span style="color:#2aa198">0</span>:
+            q<span style="color:#719e07">.</span>append(i)
+    w <span style="color:#719e07">=</span> <span style="color:#b58900">int</span>(<span style="color:#b58900">input</span>()) <span style="color:#719e07">-</span> <span style="color:#2aa198">1</span>
+    <span style="color:#719e07">while</span>(q):
+        c <span style="color:#719e07">=</span> q<span style="color:#719e07">.</span>popleft()
+        <span style="color:#719e07">if</span> c <span style="color:#719e07">==</span> w:
+            <span style="color:#719e07">print</span>(dp_build_time[c] <span style="color:#719e07">+</span> time[c])
+        <span style="color:#719e07">for</span> i <span style="color:#719e07">in</span> graph[c]:
+            cnt_enter_link[i] <span style="color:#719e07">-=</span> <span style="color:#2aa198">1</span>
+            dp_build_time[i] <span style="color:#719e07">=</span> <span style="color:#b58900">max</span>(dp_build_time[i], dp_build_time[c] <span style="color:#719e07">+</span> time[c])
+            <span style="color:#719e07">if</span> cnt_enter_link[i] <span style="color:#719e07">==</span> <span style="color:#2aa198">0</span>:
+                q<span style="color:#719e07">.</span>append(i)
+</code></pre></div><p><img src="/img/boj1005.png" alt="image"></p>
+
+		</div>
+
+		<div class="post-tags">
+			
+				
+					<nav class="nav tags">
+							<ul class="flat">
+								
+								<li><a href="/tags/dp">dp</a></li>
+								
+								<li><a href="/tags/topological-sort">topological-sort</a></li>
+								
+								<li><a href="/tags/boj">boj</a></li>
+								
+								<li><a href="/tags/python">python</a></li>
+								
+							</ul>
+					</nav>
+				
+			
+		</div>
+		<div id="disqus_thread"></div>
+<script type="text/javascript">
+	(function () {
+		
+		
+		if (window.location.hostname == "localhost")
+			return;
+
+		var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		var disqus_shortname = 'dongju';
+		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
+		Disqus.</a></noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+	<div class="footer wrapper">
+	<nav class="nav">
+		<div> © Copyright notice |  <a href="https://github.com/vividvilla/ezhil">Ezhil theme</a> | Built with <a href="https://gohugo.io">Hugo</a></div>
+	</nav>
+</div>
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-123-45', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+<script>feather.replace()</script>
+</body>
+</html>

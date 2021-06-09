@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>python on 동주의 세상</title>
+    <link>/tags/python/</link>
+    <description>Recent content in python on 동주의 세상</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Copyright notice</copyright>
+    <lastBuildDate>Wed, 09 Jun 2021 11:26:32 -0700</lastBuildDate><atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>백준 9466 텀 프로젝트 파이썬</title>
+      <link>/algorithm/boj9466/</link>
+      <pubDate>Wed, 09 Jun 2021 11:26:32 -0700</pubDate>
+      
+      <guid>/algorithm/boj9466/</guid>
+      <description>접근 dfs로 탐색을 하다 탐색한 부분이 다시 발견되면 cycle 이 성립한다. directed-graph 이기에 가능한 성질이다.</description>
+    </item>
+    
+    <item>
+      <title>백준 1806 부분합 파이썬</title>
+      <link>/algorithm/boj1806/</link>
+      <pubDate>Wed, 09 Jun 2021 09:55:01 -0700</pubDate>
+      
+      <guid>/algorithm/boj1806/</guid>
+      <description>접근
+ 정해진 길이가 없기에 사이즈가 자유로운 윈도우 사이즈로 수열을 탐색한다. 앞의 포인터를 post, 뒤를 pre라 할때 윈도우의 합이 S 보다 커질때까지 post가 앞으로 움직인다.</description>
+    </item>
+    
+    <item>
+      <title>백준 1005 해설 파이썬</title>
+      <link>/algorithm/boj1105/</link>
+      <pubDate>Tue, 08 Jun 2021 19:59:19 -0700</pubDate>
+      
+      <guid>/algorithm/boj1105/</guid>
+      <description>solved.ac class 5의 essential 문제로, 위상 정렬에 대한 이해가 있다면 어렵지 않게 풀수 있다.
+위상 정렬에 대해서는 따로 알고리즘 포스팅에 정리해놓겠다.</description>
+    </item>
+    
+  </channel>
+</rss>
