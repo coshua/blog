@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>graph on 동주의 세상</title>
-    <link>/tags/graph/</link>
+    <link>https://jutopia.net/tags/graph/</link>
     <description>Recent content in graph on 동주의 세상</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright notice</copyright>
-    <lastBuildDate>Wed, 09 Jun 2021 11:26:32 -0700</lastBuildDate><atom:link href="/tags/graph/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Jun 2021 11:26:32 -0700</lastBuildDate><atom:link href="https://jutopia.net/tags/graph/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>백준 9466 텀 프로젝트 파이썬</title>
-      <link>/algorithm/boj9466/</link>
+      <link>https://jutopia.net/algorithm/boj9466/</link>
       <pubDate>Wed, 09 Jun 2021 11:26:32 -0700</pubDate>
       
-      <guid>/algorithm/boj9466/</guid>
+      <guid>https://jutopia.net/algorithm/boj9466/</guid>
       <description>접근 dfs로 탐색을 하다 탐색한 부분이 다시 발견되면 cycle 이 성립한다. directed-graph 이기에 가능한 성질이다.</description>
     </item>
     

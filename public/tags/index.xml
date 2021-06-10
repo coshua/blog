@@ -2,117 +2,117 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on 동주의 세상</title>
-    <link>/tags/</link>
+    <link>https://jutopia.net/tags/</link>
     <description>Recent content in Tags on 동주의 세상</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright notice</copyright>
-    <lastBuildDate>Wed, 09 Jun 2021 14:40:32 -0700</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Jun 2021 14:40:32 -0700</lastBuildDate><atom:link href="https://jutopia.net/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>diary</title>
-      <link>/tags/diary/</link>
+      <link>https://jutopia.net/tags/diary/</link>
       <pubDate>Wed, 09 Jun 2021 14:40:32 -0700</pubDate>
       
-      <guid>/tags/diary/</guid>
+      <guid>https://jutopia.net/tags/diary/</guid>
       <description></description>
     </item>
     
     <item>
       <title>essay</title>
-      <link>/tags/essay/</link>
+      <link>https://jutopia.net/tags/essay/</link>
       <pubDate>Wed, 09 Jun 2021 14:40:32 -0700</pubDate>
       
-      <guid>/tags/essay/</guid>
+      <guid>https://jutopia.net/tags/essay/</guid>
       <description></description>
     </item>
     
     <item>
       <title>reflection</title>
-      <link>/tags/reflection/</link>
+      <link>https://jutopia.net/tags/reflection/</link>
       <pubDate>Wed, 09 Jun 2021 14:40:32 -0700</pubDate>
       
-      <guid>/tags/reflection/</guid>
+      <guid>https://jutopia.net/tags/reflection/</guid>
       <description></description>
     </item>
     
     <item>
       <title>software-testing</title>
-      <link>/tags/software-testing/</link>
+      <link>https://jutopia.net/tags/software-testing/</link>
       <pubDate>Wed, 09 Jun 2021 14:40:32 -0700</pubDate>
       
-      <guid>/tags/software-testing/</guid>
+      <guid>https://jutopia.net/tags/software-testing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>boj</title>
-      <link>/tags/boj/</link>
+      <link>https://jutopia.net/tags/boj/</link>
       <pubDate>Wed, 09 Jun 2021 11:26:32 -0700</pubDate>
       
-      <guid>/tags/boj/</guid>
+      <guid>https://jutopia.net/tags/boj/</guid>
       <description></description>
     </item>
     
     <item>
       <title>dfs</title>
-      <link>/tags/dfs/</link>
+      <link>https://jutopia.net/tags/dfs/</link>
       <pubDate>Wed, 09 Jun 2021 11:26:32 -0700</pubDate>
       
-      <guid>/tags/dfs/</guid>
+      <guid>https://jutopia.net/tags/dfs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>directed-graph</title>
-      <link>/tags/directed-graph/</link>
+      <link>https://jutopia.net/tags/directed-graph/</link>
       <pubDate>Wed, 09 Jun 2021 11:26:32 -0700</pubDate>
       
-      <guid>/tags/directed-graph/</guid>
+      <guid>https://jutopia.net/tags/directed-graph/</guid>
       <description></description>
     </item>
     
     <item>
       <title>graph</title>
-      <link>/tags/graph/</link>
+      <link>https://jutopia.net/tags/graph/</link>
       <pubDate>Wed, 09 Jun 2021 11:26:32 -0700</pubDate>
       
-      <guid>/tags/graph/</guid>
+      <guid>https://jutopia.net/tags/graph/</guid>
       <description></description>
     </item>
     
     <item>
       <title>python</title>
-      <link>/tags/python/</link>
+      <link>https://jutopia.net/tags/python/</link>
       <pubDate>Wed, 09 Jun 2021 11:26:32 -0700</pubDate>
       
-      <guid>/tags/python/</guid>
+      <guid>https://jutopia.net/tags/python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>two-pointer</title>
-      <link>/tags/two-pointer/</link>
+      <link>https://jutopia.net/tags/two-pointer/</link>
       <pubDate>Wed, 09 Jun 2021 09:55:01 -0700</pubDate>
       
-      <guid>/tags/two-pointer/</guid>
+      <guid>https://jutopia.net/tags/two-pointer/</guid>
       <description></description>
     </item>
     
     <item>
       <title>dp</title>
-      <link>/tags/dp/</link>
+      <link>https://jutopia.net/tags/dp/</link>
       <pubDate>Tue, 08 Jun 2021 19:59:19 -0700</pubDate>
       
-      <guid>/tags/dp/</guid>
+      <guid>https://jutopia.net/tags/dp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>topological-sort</title>
-      <link>/tags/topological-sort/</link>
+      <link>https://jutopia.net/tags/topological-sort/</link>
       <pubDate>Tue, 08 Jun 2021 19:59:19 -0700</pubDate>
       
-      <guid>/tags/topological-sort/</guid>
+      <guid>https://jutopia.net/tags/topological-sort/</guid>
       <description></description>
     </item>
     
