@@ -10,6 +10,9 @@ pygmentsstyle = "solarized-dark"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
+# enable robots txt
+enableRobotsTXT = true
+
 # Your Google analytics code.
 googleAnalytics = "UA-123-45"
 # Your Disqus sortname.
@@ -99,6 +102,10 @@ url = "https://twitter.com"
 # Enable tags.
 [taxonomies]
    tag = "tags"
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
 
 [sitemap]
 changefreq = "weekly"
