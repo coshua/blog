@@ -99,3 +99,7 @@ url = "https://twitter.com"
 # Enable tags.
 [taxonomies]
    tag = "tags"
+
+[sitemap]
+changefreq = "weekly"
+filename = "sitemap.xml"
