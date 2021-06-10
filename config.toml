@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://jutopia.net"
 languageCode = "en-us"
 title = "동주의 세상"
 theme = "ezhil"
