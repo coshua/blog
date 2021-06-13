@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>백준 1766 문제집 파이썬 - 동주의 세상</title><link rel="icon" type="image/png" href=icons/myicon.png /><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="백준 1766 문제집 파이썬" />
+<meta property="og:description" content="접근 위상 정렬을 이용해 현재 접근 가능한 수 중 가장 작은 값을 출력한다
+ N 사이즈의 풀 수 있는 다음 문제가 담긴 2차원 리스트, 접근하기 위해 풀어야 하는 선행 문제의 갯수가 담긴 int 리스트를 선언한다." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://jutopia.net/algorithm/boj1766/" /><meta property="article:section" content="algorithm" />
+<meta property="article:published_time" content="2021-06-10T15:02:48-07:00" />
+<meta property="article:modified_time" content="2021-06-10T15:02:48-07:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="백준 1766 문제집 파이썬"/>
+<meta name="twitter:description" content="접근 위상 정렬을 이용해 현재 접근 가능한 수 중 가장 작은 값을 출력한다
+ N 사이즈의 풀 수 있는 다음 문제가 담긴 2차원 리스트, 접근하기 위해 풀어야 하는 선행 문제의 갯수가 담긴 int 리스트를 선언한다."/>
+<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:200,300" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" media="screen" href="https://jutopia.net/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://jutopia.net/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="https://jutopia.net/css/custom.css" />
+	<link rel="stylesheet" type="text/css" href="https://jutopia.net/css/dark.css" media="(prefers-color-scheme: dark)" />
+	<link rel="stylesheet" type="text/css" href="https://jutopia.net/css/custom-dark.css" media="(prefers-color-scheme: dark)" />
+
+	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+	<script src="https://jutopia.net/js/main.js"></script>
+	<script src="https://jutopia.net/js/abc.js"></script>
+	<script src="https://jutopia.net/js/xyz.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+
+<body>
+	<div class="container wrapper post">
+		<div class="header">
+	<base href="https://jutopia.net/">
+	<h1 class="site-title"><a href="https://jutopia.net/">동주의 세상</a></h1>
+	<div class="site-description"><h2>Clean and minimal personal blog</h2><nav class="nav social">
+			<ul class="flat"><a href="https://github.com/coshua" title="Github"><i data-feather="github"></i></a><a href="https://twitter.com" title="Twitter"><i data-feather="twitter"></i></a></ul>
+		</nav>
+	</div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li>
+				<a href="/">Home</a>
+			</li>
+			
+			<li>
+				<a href="/post">Essay</a>
+			</li>
+			
+			<li>
+				<a href="/algorithm">Algorithm</a>
+			</li>
+			
+			<li>
+				<a href="/tech">Tech</a>
+			</li>
+			
+			<li>
+				<a href="/tags">Tags</a>
+			</li>
+			
+			<li>
+				<a href="/about">About</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post-header">
+			<h1 class="title">백준 1766 문제집 파이썬</h1>
+			<div class="meta">Posted at &mdash; Jun 10, 2021</div>
+		</div>
+
+		<div class="markdown">
+			<h4 id="접근"><strong>접근</strong></h4>
+<p><strong>위상 정렬을 이용해 현재 접근 가능한 수 중 가장 작은 값을 출력한다</strong></p>
+<ol>
+<li>N 사이즈의 풀 수 있는 다음 문제가 담긴 2차원 리스트, 접근하기 위해 풀어야 하는 선행 문제의 갯수가 담긴 int 리스트를 선언한다.</li>
+<li>M 개의 조건문을 받고 A -&gt; B 를 바라보도록 리스트에 추가해준다. B 의 선행문제 갯수는 하나 올라간다.</li>
+<li>선행문제 카운트 리스트를 훑으며 지금 진입 가능한 (선행문제가 0인) 문제 번호들을 Priority Queue 에 넣는다.</li>
+<li>Priority Queue 에서 값을 뽑는다. 이 문제가 바라보는 다음 문제들을 훝으며 각각의 선행 문제 갯수를 하나씩 뺀다.</li>
+<li>이 과정에서 선행 문제 갯수가 0이 된 문제들을 Queue 에 추가해준다.</li>
+</ol>
+<h4 id="사고"><strong>사고</strong></h4>
+<p>혹시나 나처럼 헷갈리는 이들이 있을까 싶어 문제 조건을 확실히 해두고 싶다.</p>
+<p>M 중에
+2 1
+6 1
+이런 조건이 있다면 2, 6을 순서대로 해결하고 1로 돌아오는 것이 아니라 매 순간 접근 할 수 있는 (선행 문제가 풀려 있는) 문제 중 번호가 가장 작은 순서를 출력하면 된다.</p>
+<p>참고: <a href="https://www.acmicpc.net/board/view/41073">백준 질문 게시판</a></p>
+<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#719e07">import</span> sys
+<span style="color:#719e07">from</span> queue <span style="color:#719e07">import</span> PriorityQueue
+<span style="color:#b58900">input</span> <span style="color:#719e07">=</span> sys<span style="color:#719e07">.</span>stdin<span style="color:#719e07">.</span>readline
+N, M <span style="color:#719e07">=</span> <span style="color:#b58900">list</span>(<span style="color:#b58900">map</span>(<span style="color:#b58900">int</span>, <span style="color:#b58900">input</span>()<span style="color:#719e07">.</span>split()))
+
+graph <span style="color:#719e07">=</span> [[] <span style="color:#719e07">for</span> _ <span style="color:#719e07">in</span> <span style="color:#b58900">range</span>(N <span style="color:#719e07">+</span> <span style="color:#2aa198">1</span>)]
+prev_link_cnt <span style="color:#719e07">=</span> [<span style="color:#2aa198">0</span>] <span style="color:#719e07">*</span> (N <span style="color:#719e07">+</span> <span style="color:#2aa198">1</span>)
+
+<span style="color:#719e07">for</span> _ <span style="color:#719e07">in</span> <span style="color:#b58900">range</span>(M):
+    a, b <span style="color:#719e07">=</span> <span style="color:#b58900">list</span>(<span style="color:#b58900">map</span>(<span style="color:#b58900">int</span>, <span style="color:#b58900">input</span>()<span style="color:#719e07">.</span>strip()<span style="color:#719e07">.</span>split()))
+    graph[a]<span style="color:#719e07">.</span>append(b)
+    prev_link_cnt[b] <span style="color:#719e07">+=</span> <span style="color:#2aa198">1</span>
+
+q <span style="color:#719e07">=</span> PriorityQueue()
+
+<span style="color:#719e07">for</span> i <span style="color:#719e07">in</span> <span style="color:#b58900">range</span>(<span style="color:#2aa198">1</span>, N <span style="color:#719e07">+</span> <span style="color:#2aa198">1</span>):
+    <span style="color:#719e07">if</span> prev_link_cnt[i] <span style="color:#719e07">==</span> <span style="color:#2aa198">0</span>:
+        q<span style="color:#719e07">.</span>put(i)
+
+<span style="color:#719e07">while</span>(q<span style="color:#719e07">.</span>qsize() <span style="color:#719e07">&gt;</span> <span style="color:#2aa198">0</span>):
+    c <span style="color:#719e07">=</span> q<span style="color:#719e07">.</span>get()
+    <span style="color:#719e07">for</span> item <span style="color:#719e07">in</span> graph[c]:
+        prev_link_cnt[item] <span style="color:#719e07">-=</span> <span style="color:#2aa198">1</span>
+        <span style="color:#719e07">if</span> prev_link_cnt[item] <span style="color:#719e07">==</span> <span style="color:#2aa198">0</span>:
+            q<span style="color:#719e07">.</span>put(item)
+    sys<span style="color:#719e07">.</span>stdout<span style="color:#719e07">.</span>write(<span style="color:#b58900">str</span>(c) <span style="color:#719e07">+</span> <span style="color:#2aa198">&#34; &#34;</span>)
+</code></pre></div><p><img src="/img/boj1766.png" alt="submission"></p>
+
+		</div>
+
+		<div class="post-tags">
+			
+				
+					<nav class="nav tags">
+							<ul class="flat">
+								
+								<li><a href="/tags/graph">graph</a></li>
+								
+								<li><a href="/tags/queue">queue</a></li>
+								
+								<li><a href="/tags/priority-queue">priority-queue</a></li>
+								
+								<li><a href="/tags/topological-sort">topological-sort</a></li>
+								
+								<li><a href="/tags/python">python</a></li>
+								
+								<li><a href="/tags/boj">boj</a></li>
+								
+							</ul>
+					</nav>
+				
+			
+		</div>
+		</div>
+	<div class="article-container"></div>
+		<script
+  src="https://utteranc.es/client.js"
+  repo="coshua/blog-comments"
+  issue-term="pathname"
+  theme="preferred-color-scheme"
+  crossorigin="anonymous"
+  async
+></script>
+
+	</div>
+	
+</body>
+</html>

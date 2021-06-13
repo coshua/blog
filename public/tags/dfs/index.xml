@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright notice</copyright>
-    <lastBuildDate>Wed, 09 Jun 2021 11:26:32 -0700</lastBuildDate><atom:link href="https://jutopia.net/tags/dfs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Jun 2021 20:12:20 -0700</lastBuildDate><atom:link href="https://jutopia.net/tags/dfs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>백준 16724 피리 부는 사나이, 파이썬</title>
+      <link>https://jutopia.net/algorithm/boj16724/</link>
+      <pubDate>Sat, 12 Jun 2021 20:12:20 -0700</pubDate>
+      
+      <guid>https://jutopia.net/algorithm/boj16724/</guid>
+      <description>접근  방문 기록을 리스트로 기억한다. DFS 에 현재 탐색 중인 좌표들이 담긴 큐와 현재 위치를 인자로 받는다.</description>
+    </item>
+    
     <item>
       <title>백준 9466 텀 프로젝트 파이썬</title>
       <link>https://jutopia.net/algorithm/boj9466/</link>

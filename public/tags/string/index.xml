@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>string on 동주의 세상</title>
+    <link>https://jutopia.net/tags/string/</link>
+    <description>Recent content in string on 동주의 세상</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Copyright notice</copyright>
+    <lastBuildDate>Thu, 10 Jun 2021 13:02:36 -0700</lastBuildDate><atom:link href="https://jutopia.net/tags/string/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>백준 1958 LCS3 파이썬</title>
+      <link>https://jutopia.net/algorithm/boj1958/</link>
+      <pubDate>Thu, 10 Jun 2021 13:02:36 -0700</pubDate>
+      
+      <guid>https://jutopia.net/algorithm/boj1958/</guid>
+      <description>접근 처음 두 줄의 LCS 를 찾고, 그 결과와 마지막 줄의 LCS 를 찾는 순차적인 방법으로도 가능하다.</description>
+    </item>
+    
+  </channel>
+</rss>

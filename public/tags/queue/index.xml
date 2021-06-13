@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>queue on 동주의 세상</title>
+    <link>https://jutopia.net/tags/queue/</link>
+    <description>Recent content in queue on 동주의 세상</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Copyright notice</copyright>
+    <lastBuildDate>Thu, 10 Jun 2021 15:02:48 -0700</lastBuildDate><atom:link href="https://jutopia.net/tags/queue/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>백준 1766 문제집 파이썬</title>
+      <link>https://jutopia.net/algorithm/boj1766/</link>
+      <pubDate>Thu, 10 Jun 2021 15:02:48 -0700</pubDate>
+      
+      <guid>https://jutopia.net/algorithm/boj1766/</guid>
+      <description>접근 위상 정렬을 이용해 현재 접근 가능한 수 중 가장 작은 값을 출력한다
+ N 사이즈의 풀 수 있는 다음 문제가 담긴 2차원 리스트, 접근하기 위해 풀어야 하는 선행 문제의 갯수가 담긴 int 리스트를 선언한다.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -2,6 +2,66 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jutopia.net/algorithm/</loc>
+    <lastmod>2021-06-12T20:12:20-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jutopia.net/tags/boj/</loc>
+    <lastmod>2021-06-12T20:12:20-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jutopia.net/tags/dfs/</loc>
+    <lastmod>2021-06-12T20:12:20-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jutopia.net/tags/graph/</loc>
+    <lastmod>2021-06-12T20:12:20-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jutopia.net/tags/python/</loc>
+    <lastmod>2021-06-12T20:12:20-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jutopia.net/tags/</loc>
+    <lastmod>2021-06-12T20:12:20-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jutopia.net/</loc>
+    <lastmod>2021-06-12T20:12:20-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jutopia.net/algorithm/boj16724/</loc>
+    <lastmod>2021-06-12T20:12:20-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jutopia.net/tags/priority-queue/</loc>
+    <lastmod>2021-06-10T15:02:48-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jutopia.net/tags/queue/</loc>
+    <lastmod>2021-06-10T15:02:48-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jutopia.net/tags/topological-sort/</loc>
+    <lastmod>2021-06-10T15:02:48-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jutopia.net/algorithm/boj1766/</loc>
+    <lastmod>2021-06-10T15:02:48-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jutopia.net/tags/dp/</loc>
+    <lastmod>2021-06-10T13:02:36-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jutopia.net/tags/string/</loc>
+    <lastmod>2021-06-10T13:02:36-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jutopia.net/algorithm/boj1958/</loc>
+    <lastmod>2021-06-10T13:02:36-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://jutopia.net/tags/diary/</loc>
     <lastmod>2021-06-09T14:40:32-07:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -22,39 +82,11 @@
     <lastmod>2021-06-09T14:40:32-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://jutopia.net/tags/</loc>
-    <lastmod>2021-06-09T14:40:32-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://jutopia.net/</loc>
-    <lastmod>2021-06-09T14:40:32-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://jutopia.net/post/confirmation-bias/</loc>
     <lastmod>2021-06-09T14:40:32-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://jutopia.net/algorithm/</loc>
-    <lastmod>2021-06-09T11:26:32-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://jutopia.net/tags/boj/</loc>
-    <lastmod>2021-06-09T11:26:32-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://jutopia.net/tags/dfs/</loc>
-    <lastmod>2021-06-09T11:26:32-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://jutopia.net/tags/directed-graph/</loc>
-    <lastmod>2021-06-09T11:26:32-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://jutopia.net/tags/graph/</loc>
-    <lastmod>2021-06-09T11:26:32-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://jutopia.net/tags/python/</loc>
     <lastmod>2021-06-09T11:26:32-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -68,14 +100,6 @@
   </url><url>
     <loc>https://jutopia.net/algorithm/boj1806/</loc>
     <lastmod>2021-06-09T09:55:01-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://jutopia.net/tags/dp/</loc>
-    <lastmod>2021-06-08T19:59:19-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://jutopia.net/tags/topological-sort/</loc>
-    <lastmod>2021-06-08T19:59:19-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jutopia.net/algorithm/boj1105/</loc>
