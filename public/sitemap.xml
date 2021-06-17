@@ -2,6 +2,58 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jutopia.net/tags/book/</loc>
+    <lastmod>2021-06-16T23:15:55-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jutopia.net/tech/effective-java_ch2/</loc>
+    <lastmod>2021-06-16T23:15:55-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jutopia.net/tags/java/</loc>
+    <lastmod>2021-06-16T23:15:55-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jutopia.net/tags/joshua-bloch/</loc>
+    <lastmod>2021-06-16T23:15:55-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jutopia.net/tags/programming-language/</loc>
+    <lastmod>2021-06-16T23:15:55-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jutopia.net/tags/</loc>
+    <lastmod>2021-06-16T23:15:55-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jutopia.net/tech/</loc>
+    <lastmod>2021-06-16T23:15:55-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jutopia.net/tags/%EA%B0%9C%EB%B0%9C/</loc>
+    <lastmod>2021-06-16T23:15:55-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jutopia.net/tags/%EA%B3%B5%EB%B6%80/</loc>
+    <lastmod>2021-06-16T23:15:55-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jutopia.net/</loc>
+    <lastmod>2021-06-16T23:15:55-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jutopia.net/tags/%EC%9E%90%EB%B0%94/</loc>
+    <lastmod>2021-06-16T23:15:55-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jutopia.net/tags/%EC%9E%90%EB%B0%94-%EC%B1%85-%EC%B6%94%EC%B2%9C/</loc>
+    <lastmod>2021-06-16T23:15:55-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jutopia.net/tags/%EC%BD%94%EB%94%A9-%EB%8F%85%ED%95%99/</loc>
+    <lastmod>2021-06-16T23:15:55-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://jutopia.net/algorithm/</loc>
     <lastmod>2021-06-16T17:16:53-07:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -18,19 +70,27 @@
     <lastmod>2021-06-16T17:16:53-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://jutopia.net/tags/</loc>
-    <lastmod>2021-06-16T17:16:53-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://jutopia.net/tags/window-slicing/</loc>
     <lastmod>2021-06-16T17:16:53-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://jutopia.net/</loc>
+    <loc>https://jutopia.net/tags/%EB%8B%A4%EC%9D%B4%EB%82%98%EB%AF%B9-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/</loc>
+    <lastmod>2021-06-16T17:16:53-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jutopia.net/tags/%EB%B0%B1%EC%A4%80/</loc>
     <lastmod>2021-06-16T17:16:53-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jutopia.net/algorithm/boj2616/</loc>
+    <lastmod>2021-06-16T17:16:53-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jutopia.net/tags/%EC%9C%88%EB%8F%84%EC%9A%B0-%EC%8A%AC%EB%9D%BC%EC%9D%B4%EC%8B%B1/</loc>
+    <lastmod>2021-06-16T17:16:53-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jutopia.net/tags/%ED%8C%8C%EC%9D%B4%EC%8D%AC/</loc>
     <lastmod>2021-06-16T17:16:53-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -42,7 +102,19 @@
     <lastmod>2021-06-12T20:12:20-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://jutopia.net/tags/%EA%B7%B8%EB%9E%98%ED%94%84/</loc>
+    <lastmod>2021-06-12T20:12:20-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jutopia.net/tags/%EA%B9%8A%EC%96%B4-%EC%9A%B0%EC%84%A0-%ED%83%90%EC%83%89/</loc>
+    <lastmod>2021-06-12T20:12:20-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://jutopia.net/algorithm/boj16724/</loc>
+    <lastmod>2021-06-12T20:12:20-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jutopia.net/tags/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/</loc>
     <lastmod>2021-06-12T20:12:20-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -62,7 +134,19 @@
     <lastmod>2021-06-10T15:02:48-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://jutopia.net/tags/%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84-%ED%81%90/</loc>
+    <lastmod>2021-06-10T15:02:48-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jutopia.net/tags/%EC%9C%84%EC%83%81-%EC%A0%95%EB%A0%AC/</loc>
+    <lastmod>2021-06-10T15:02:48-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://jutopia.net/tags/string/</loc>
+    <lastmod>2021-06-10T13:02:36-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jutopia.net/tags/%EB%AC%B8%EC%9E%90%EC%97%B4/</loc>
     <lastmod>2021-06-10T13:02:36-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -95,6 +179,14 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jutopia.net/tags/directed-graph/</loc>
+    <lastmod>2021-06-09T11:26:32-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jutopia.net/tags/%EA%B9%8A%EC%9D%B4-%EC%9A%B0%EC%84%A0-%ED%83%90%EC%83%89/</loc>
+    <lastmod>2021-06-09T11:26:32-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jutopia.net/tags/%EB%8B%A8%EB%B0%A9%ED%96%A5-%EA%B7%B8%EB%9E%98%ED%94%84/</loc>
     <lastmod>2021-06-09T11:26:32-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>

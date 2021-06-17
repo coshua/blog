@@ -7,7 +7,88 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright notice</copyright>
-    <lastBuildDate>Wed, 16 Jun 2021 17:16:53 -0700</lastBuildDate><atom:link href="https://jutopia.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Jun 2021 23:15:55 -0700</lastBuildDate><atom:link href="https://jutopia.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>book</title>
+      <link>https://jutopia.net/tags/book/</link>
+      <pubDate>Wed, 16 Jun 2021 23:15:55 -0700</pubDate>
+      
+      <guid>https://jutopia.net/tags/book/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>java</title>
+      <link>https://jutopia.net/tags/java/</link>
+      <pubDate>Wed, 16 Jun 2021 23:15:55 -0700</pubDate>
+      
+      <guid>https://jutopia.net/tags/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>joshua-bloch</title>
+      <link>https://jutopia.net/tags/joshua-bloch/</link>
+      <pubDate>Wed, 16 Jun 2021 23:15:55 -0700</pubDate>
+      
+      <guid>https://jutopia.net/tags/joshua-bloch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>programming language</title>
+      <link>https://jutopia.net/tags/programming-language/</link>
+      <pubDate>Wed, 16 Jun 2021 23:15:55 -0700</pubDate>
+      
+      <guid>https://jutopia.net/tags/programming-language/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>개발</title>
+      <link>https://jutopia.net/tags/%EA%B0%9C%EB%B0%9C/</link>
+      <pubDate>Wed, 16 Jun 2021 23:15:55 -0700</pubDate>
+      
+      <guid>https://jutopia.net/tags/%EA%B0%9C%EB%B0%9C/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>공부</title>
+      <link>https://jutopia.net/tags/%EA%B3%B5%EB%B6%80/</link>
+      <pubDate>Wed, 16 Jun 2021 23:15:55 -0700</pubDate>
+      
+      <guid>https://jutopia.net/tags/%EA%B3%B5%EB%B6%80/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>자바</title>
+      <link>https://jutopia.net/tags/%EC%9E%90%EB%B0%94/</link>
+      <pubDate>Wed, 16 Jun 2021 23:15:55 -0700</pubDate>
+      
+      <guid>https://jutopia.net/tags/%EC%9E%90%EB%B0%94/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>자바 책 추천</title>
+      <link>https://jutopia.net/tags/%EC%9E%90%EB%B0%94-%EC%B1%85-%EC%B6%94%EC%B2%9C/</link>
+      <pubDate>Wed, 16 Jun 2021 23:15:55 -0700</pubDate>
+      
+      <guid>https://jutopia.net/tags/%EC%9E%90%EB%B0%94-%EC%B1%85-%EC%B6%94%EC%B2%9C/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>코딩 독학</title>
+      <link>https://jutopia.net/tags/%EC%BD%94%EB%94%A9-%EB%8F%85%ED%95%99/</link>
+      <pubDate>Wed, 16 Jun 2021 23:15:55 -0700</pubDate>
+      
+      <guid>https://jutopia.net/tags/%EC%BD%94%EB%94%A9-%EB%8F%85%ED%95%99/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>boj</title>
       <link>https://jutopia.net/tags/boj/</link>
@@ -45,6 +126,42 @@
     </item>
     
     <item>
+      <title>다이나믹 프로그래밍</title>
+      <link>https://jutopia.net/tags/%EB%8B%A4%EC%9D%B4%EB%82%98%EB%AF%B9-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/</link>
+      <pubDate>Wed, 16 Jun 2021 17:16:53 -0700</pubDate>
+      
+      <guid>https://jutopia.net/tags/%EB%8B%A4%EC%9D%B4%EB%82%98%EB%AF%B9-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>백준</title>
+      <link>https://jutopia.net/tags/%EB%B0%B1%EC%A4%80/</link>
+      <pubDate>Wed, 16 Jun 2021 17:16:53 -0700</pubDate>
+      
+      <guid>https://jutopia.net/tags/%EB%B0%B1%EC%A4%80/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>윈도우 슬라이싱</title>
+      <link>https://jutopia.net/tags/%EC%9C%88%EB%8F%84%EC%9A%B0-%EC%8A%AC%EB%9D%BC%EC%9D%B4%EC%8B%B1/</link>
+      <pubDate>Wed, 16 Jun 2021 17:16:53 -0700</pubDate>
+      
+      <guid>https://jutopia.net/tags/%EC%9C%88%EB%8F%84%EC%9A%B0-%EC%8A%AC%EB%9D%BC%EC%9D%B4%EC%8B%B1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>파이썬</title>
+      <link>https://jutopia.net/tags/%ED%8C%8C%EC%9D%B4%EC%8D%AC/</link>
+      <pubDate>Wed, 16 Jun 2021 17:16:53 -0700</pubDate>
+      
+      <guid>https://jutopia.net/tags/%ED%8C%8C%EC%9D%B4%EC%8D%AC/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>dfs</title>
       <link>https://jutopia.net/tags/dfs/</link>
       <pubDate>Sat, 12 Jun 2021 20:12:20 -0700</pubDate>
@@ -59,6 +176,33 @@
       <pubDate>Sat, 12 Jun 2021 20:12:20 -0700</pubDate>
       
       <guid>https://jutopia.net/tags/graph/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>그래프</title>
+      <link>https://jutopia.net/tags/%EA%B7%B8%EB%9E%98%ED%94%84/</link>
+      <pubDate>Sat, 12 Jun 2021 20:12:20 -0700</pubDate>
+      
+      <guid>https://jutopia.net/tags/%EA%B7%B8%EB%9E%98%ED%94%84/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>깊어 우선 탐색</title>
+      <link>https://jutopia.net/tags/%EA%B9%8A%EC%96%B4-%EC%9A%B0%EC%84%A0-%ED%83%90%EC%83%89/</link>
+      <pubDate>Sat, 12 Jun 2021 20:12:20 -0700</pubDate>
+      
+      <guid>https://jutopia.net/tags/%EA%B9%8A%EC%96%B4-%EC%9A%B0%EC%84%A0-%ED%83%90%EC%83%89/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>알고리즘</title>
+      <link>https://jutopia.net/tags/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/</link>
+      <pubDate>Sat, 12 Jun 2021 20:12:20 -0700</pubDate>
+      
+      <guid>https://jutopia.net/tags/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/</guid>
       <description></description>
     </item>
     
@@ -90,11 +234,38 @@
     </item>
     
     <item>
+      <title>우선순위 큐</title>
+      <link>https://jutopia.net/tags/%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84-%ED%81%90/</link>
+      <pubDate>Thu, 10 Jun 2021 15:02:48 -0700</pubDate>
+      
+      <guid>https://jutopia.net/tags/%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84-%ED%81%90/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>위상 정렬</title>
+      <link>https://jutopia.net/tags/%EC%9C%84%EC%83%81-%EC%A0%95%EB%A0%AC/</link>
+      <pubDate>Thu, 10 Jun 2021 15:02:48 -0700</pubDate>
+      
+      <guid>https://jutopia.net/tags/%EC%9C%84%EC%83%81-%EC%A0%95%EB%A0%AC/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>string</title>
       <link>https://jutopia.net/tags/string/</link>
       <pubDate>Thu, 10 Jun 2021 13:02:36 -0700</pubDate>
       
       <guid>https://jutopia.net/tags/string/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>문자열</title>
+      <link>https://jutopia.net/tags/%EB%AC%B8%EC%9E%90%EC%97%B4/</link>
+      <pubDate>Thu, 10 Jun 2021 13:02:36 -0700</pubDate>
+      
+      <guid>https://jutopia.net/tags/%EB%AC%B8%EC%9E%90%EC%97%B4/</guid>
       <description></description>
     </item>
     
@@ -140,6 +311,24 @@
       <pubDate>Wed, 09 Jun 2021 11:26:32 -0700</pubDate>
       
       <guid>https://jutopia.net/tags/directed-graph/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>깊이 우선 탐색</title>
+      <link>https://jutopia.net/tags/%EA%B9%8A%EC%9D%B4-%EC%9A%B0%EC%84%A0-%ED%83%90%EC%83%89/</link>
+      <pubDate>Wed, 09 Jun 2021 11:26:32 -0700</pubDate>
+      
+      <guid>https://jutopia.net/tags/%EA%B9%8A%EC%9D%B4-%EC%9A%B0%EC%84%A0-%ED%83%90%EC%83%89/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>단방향 그래프</title>
+      <link>https://jutopia.net/tags/%EB%8B%A8%EB%B0%A9%ED%96%A5-%EA%B7%B8%EB%9E%98%ED%94%84/</link>
+      <pubDate>Wed, 09 Jun 2021 11:26:32 -0700</pubDate>
+      
+      <guid>https://jutopia.net/tags/%EB%8B%A8%EB%B0%A9%ED%96%A5-%EA%B7%B8%EB%9E%98%ED%94%84/</guid>
       <description></description>
     </item>
     

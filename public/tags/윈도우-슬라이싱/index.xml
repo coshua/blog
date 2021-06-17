@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>윈도우 슬라이싱 on 동주의 세상</title>
+    <link>https://jutopia.net/tags/%EC%9C%88%EB%8F%84%EC%9A%B0-%EC%8A%AC%EB%9D%BC%EC%9D%B4%EC%8B%B1/</link>
+    <description>Recent content in 윈도우 슬라이싱 on 동주의 세상</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Copyright notice</copyright>
+    <lastBuildDate>Wed, 16 Jun 2021 17:16:53 -0700</lastBuildDate><atom:link href="https://jutopia.net/tags/%EC%9C%88%EB%8F%84%EC%9A%B0-%EC%8A%AC%EB%9D%BC%EC%9D%B4%EC%8B%B1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>백준 2616 소형기관차 - 파이썬</title>
+      <link>https://jutopia.net/algorithm/boj2616/</link>
+      <pubDate>Wed, 16 Jun 2021 17:16:53 -0700</pubDate>
+      
+      <guid>https://jutopia.net/algorithm/boj2616/</guid>
+      <description>접근  열 길이가 기차의 수 + 1이고, 행 길이가 3인 dp 행렬로 접근한다. 1~3번째 행은 각각 현재 인덱스에서 1~3번째 열차가 골라졌다면 실을 수 있는 최대 손님의 수다.</description>
+    </item>
+    
+  </channel>
+</rss>

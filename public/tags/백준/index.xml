@@ -1,22 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>동주의 세상</title>
-    <link>https://jutopia.net/</link>
-    <description>Recent content on 동주의 세상</description>
+    <title>백준 on 동주의 세상</title>
+    <link>https://jutopia.net/tags/%EB%B0%B1%EC%A4%80/</link>
+    <description>Recent content in 백준 on 동주의 세상</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright notice</copyright>
-    <lastBuildDate>Wed, 16 Jun 2021 23:15:55 -0700</lastBuildDate><atom:link href="https://jutopia.net/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Effective Java - 챕터 2 Item 7-8</title>
-      <link>https://jutopia.net/tech/effective-java_ch2/</link>
-      <pubDate>Wed, 16 Jun 2021 23:15:55 -0700</pubDate>
-      
-      <guid>https://jutopia.net/tech/effective-java_ch2/</guid>
-      <description>*Eliminate obsolete object references** 자바는 garbage-collected language 이다. 편리할 수 있으나 unintentioanl object retention 는 언제든 생길 수 있다.</description>
-    </item>
-    
+    <lastBuildDate>Wed, 16 Jun 2021 17:16:53 -0700</lastBuildDate><atom:link href="https://jutopia.net/tags/%EB%B0%B1%EC%A4%80/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>백준 2616 소형기관차 - 파이썬</title>
       <link>https://jutopia.net/algorithm/boj2616/</link>
@@ -55,41 +46,12 @@
     </item>
     
     <item>
-      <title>확증 편향과 반례 찾기</title>
-      <link>https://jutopia.net/post/confirmation-bias/</link>
-      <pubDate>Wed, 09 Jun 2021 14:40:32 -0700</pubDate>
-      
-      <guid>https://jutopia.net/post/confirmation-bias/</guid>
-      <description>나는 오랫동안 확증 편향을 숫자와 논리에 익숙치 않음과 동일시해왔다. 최근 들어 단어의 개념이 새롭게 느껴져 경험을 공유하고자 한다.</description>
-    </item>
-    
-    <item>
       <title>백준 9466 텀 프로젝트 파이썬</title>
       <link>https://jutopia.net/algorithm/boj9466/</link>
       <pubDate>Wed, 09 Jun 2021 11:26:32 -0700</pubDate>
       
       <guid>https://jutopia.net/algorithm/boj9466/</guid>
       <description>접근 dfs로 탐색을 하다 탐색한 부분이 다시 발견되면 cycle 이 성립한다. directed-graph 이기에 가능한 성질이다.</description>
-    </item>
-    
-    <item>
-      <title>백준 1806 부분합 파이썬</title>
-      <link>https://jutopia.net/algorithm/boj1806/</link>
-      <pubDate>Wed, 09 Jun 2021 09:55:01 -0700</pubDate>
-      
-      <guid>https://jutopia.net/algorithm/boj1806/</guid>
-      <description>접근
- 정해진 길이가 없기에 사이즈가 자유로운 윈도우 사이즈로 수열을 탐색한다. 앞의 포인터를 post, 뒤를 pre라 할때 윈도우의 합이 S 보다 커질때까지 post가 앞으로 움직인다.</description>
-    </item>
-    
-    <item>
-      <title>백준 1005 해설 파이썬</title>
-      <link>https://jutopia.net/algorithm/boj1105/</link>
-      <pubDate>Tue, 08 Jun 2021 19:59:19 -0700</pubDate>
-      
-      <guid>https://jutopia.net/algorithm/boj1105/</guid>
-      <description>solved.ac class 5의 essential 문제로, 위상 정렬에 대한 이해가 있다면 어렵지 않게 풀수 있다.
-위상 정렬에 대해서는 따로 알고리즘 포스팅에 정리해놓겠다.</description>
     </item>
     
   </channel>

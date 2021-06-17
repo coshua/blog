@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>단방향 그래프 on 동주의 세상</title>
+    <link>https://jutopia.net/tags/%EB%8B%A8%EB%B0%A9%ED%96%A5-%EA%B7%B8%EB%9E%98%ED%94%84/</link>
+    <description>Recent content in 단방향 그래프 on 동주의 세상</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Copyright notice</copyright>
+    <lastBuildDate>Wed, 09 Jun 2021 11:26:32 -0700</lastBuildDate><atom:link href="https://jutopia.net/tags/%EB%8B%A8%EB%B0%A9%ED%96%A5-%EA%B7%B8%EB%9E%98%ED%94%84/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>백준 9466 텀 프로젝트 파이썬</title>
+      <link>https://jutopia.net/algorithm/boj9466/</link>
+      <pubDate>Wed, 09 Jun 2021 11:26:32 -0700</pubDate>
+      
+      <guid>https://jutopia.net/algorithm/boj9466/</guid>
+      <description>접근 dfs로 탐색을 하다 탐색한 부분이 다시 발견되면 cycle 이 성립한다. directed-graph 이기에 가능한 성질이다.</description>
+    </item>
+    
+  </channel>
+</rss>

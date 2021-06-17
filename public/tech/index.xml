@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teches on 동주의 세상</title>
+    <link>https://jutopia.net/tech/</link>
+    <description>Recent content in Teches on 동주의 세상</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Copyright notice</copyright>
+    <lastBuildDate>Wed, 16 Jun 2021 23:15:55 -0700</lastBuildDate><atom:link href="https://jutopia.net/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Effective Java - 챕터 2 Item 7-8</title>
+      <link>https://jutopia.net/tech/effective-java_ch2/</link>
+      <pubDate>Wed, 16 Jun 2021 23:15:55 -0700</pubDate>
+      
+      <guid>https://jutopia.net/tech/effective-java_ch2/</guid>
+      <description>*Eliminate obsolete object references** 자바는 garbage-collected language 이다. 편리할 수 있으나 unintentioanl object retention 는 언제든 생길 수 있다.</description>
+    </item>
+    
+  </channel>
+</rss>
