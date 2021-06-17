@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright notice</copyright>
-    <lastBuildDate>Sat, 12 Jun 2021 20:12:20 -0700</lastBuildDate><atom:link href="https://jutopia.net/algorithm/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Jun 2021 17:16:53 -0700</lastBuildDate><atom:link href="https://jutopia.net/algorithm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>백준 2616 소형기관차 - 파이썬</title>
+      <link>https://jutopia.net/algorithm/boj2616/</link>
+      <pubDate>Wed, 16 Jun 2021 17:16:53 -0700</pubDate>
+      
+      <guid>https://jutopia.net/algorithm/boj2616/</guid>
+      <description>접근  열 길이가 기차의 수 + 1이고, 행 길이가 3인 dp 행렬로 접근한다. 1~3번째 행은 각각 현재 인덱스에서 1~3번째 열차가 골라졌다면 실을 수 있는 최대 손님의 수다.</description>
+    </item>
+    
     <item>
       <title>백준 16724 피리 부는 사나이, 파이썬</title>
       <link>https://jutopia.net/algorithm/boj16724/</link>
