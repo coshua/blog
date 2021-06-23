@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sort on 동주의 세상</title>
+    <link>https://jutopia.net/tags/sort/</link>
+    <description>Recent content in sort on 동주의 세상</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Copyright notice</copyright>
+    <lastBuildDate>Wed, 23 Jun 2021 14:22:28 -0700</lastBuildDate><atom:link href="https://jutopia.net/tags/sort/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode 33 - Search in rotated sorted array 풀이, 해설, 파이썬</title>
+      <link>https://jutopia.net/algorithm/lc33/</link>
+      <pubDate>Wed, 23 Jun 2021 14:22:28 -0700</pubDate>
+      
+      <guid>https://jutopia.net/algorithm/lc33/</guid>
+      <description>접근  기본적인 배경은 이분 탐색이다. 현재 pivot 기준으로 왼쪽을 봐야할지, 오른쪽을 봐야할지 조건을 생각하는 것이 관건이다.</description>
+    </item>
+    
+  </channel>
+</rss>

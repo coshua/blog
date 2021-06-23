@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>LeetCode 33 - Search in rotated sorted array 풀이, 해설, 파이썬 - 동주의 세상</title><link rel="icon" type="image/png" href=icons/myicon.png /><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="LeetCode 33 - Search in rotated sorted array 풀이, 해설, 파이썬" />
+<meta property="og:description" content="접근  기본적인 배경은 이분 탐색이다. 현재 pivot 기준으로 왼쪽을 봐야할지, 오른쪽을 봐야할지 조건을 생각하는 것이 관건이다." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://jutopia.net/algorithm/lc33/" /><meta property="article:section" content="algorithm" />
+<meta property="article:published_time" content="2021-06-23T14:22:28-07:00" />
+<meta property="article:modified_time" content="2021-06-23T14:22:28-07:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="LeetCode 33 - Search in rotated sorted array 풀이, 해설, 파이썬"/>
+<meta name="twitter:description" content="접근  기본적인 배경은 이분 탐색이다. 현재 pivot 기준으로 왼쪽을 봐야할지, 오른쪽을 봐야할지 조건을 생각하는 것이 관건이다."/>
+<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:200,300" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" media="screen" href="https://jutopia.net/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://jutopia.net/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="https://jutopia.net/css/custom.css" />
+	<link rel="stylesheet" type="text/css" href="https://jutopia.net/css/dark.css" media="(prefers-color-scheme: dark)" />
+	<link rel="stylesheet" type="text/css" href="https://jutopia.net/css/custom-dark.css" media="(prefers-color-scheme: dark)" />
+
+	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+	<script src="https://jutopia.net/js/main.js"></script>
+	<script src="https://jutopia.net/js/abc.js"></script>
+	<script src="https://jutopia.net/js/xyz.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+
+<body>
+	<div class="container wrapper post">
+		<div class="header">
+	<base href="https://jutopia.net/">
+	<h1 class="site-title"><a href="https://jutopia.net/">동주의 세상</a></h1>
+	<div class="site-description"><h2>Clean and minimal personal blog</h2><nav class="nav social">
+			<ul class="flat"><a href="https://github.com/coshua" title="Github"><i data-feather="github"></i></a><a href="https://twitter.com" title="Twitter"><i data-feather="twitter"></i></a></ul>
+		</nav>
+	</div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li>
+				<a href="/">Home</a>
+			</li>
+			
+			<li>
+				<a href="/post">Essay</a>
+			</li>
+			
+			<li>
+				<a href="/algorithm">Algorithm</a>
+			</li>
+			
+			<li>
+				<a href="/tech">Tech</a>
+			</li>
+			
+			<li>
+				<a href="/tags">Tags</a>
+			</li>
+			
+			<li>
+				<a href="/about">About</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post-header">
+			<h1 class="title">LeetCode 33 - Search in rotated sorted array 풀이, 해설, 파이썬</h1>
+			<div class="meta">Posted at &mdash; Jun 23, 2021</div>
+		</div>
+
+		<div class="markdown">
+			<h4 id="접근"><strong>접근</strong></h4>
+<ol>
+<li>기본적인 배경은 이분 탐색이다.</li>
+<li>현재 pivot 기준으로 왼쪽을 봐야할지, 오른쪽을 봐야할지 조건을 생각하는 것이 관건이다.</li>
+<li>만약 nums[low] &lt;= nums[mid] 라면, 왼쪽 subarray 는 정렬되어있다. target 이 해당 range 를 벗어나면 오른쪽을 본다.</li>
+<li>만약 nums[low] &gt; nums[mid] 라면, 오른쪽 subarray 가 정렬되어있다. target 이 오른쪽 subarray 의 range 를 벗어나면 왼쪽을 본다.</li>
+</ol>
+<h4 id="사고"><strong>사고</strong></h4>
+<p>binary search 를 필요한 만큼 수정해서 직접 이용할 수 있는지 묻는 문제이다. 직접 sorting algorithm 을 구현하는 것보다는 개인적으로 쉽고 또 자주 직접 customizing 해야한다. 다양한 정렬 문제들을 Comparator 를 이용해서 접근하는 것처럼 binary search 또한 다른 상황에서 직접 필요한 부분을 수정해서 쓸 수 있도록 연습하자.</p>
+<p>LeetCode 는 확실히 백준과 문제 분위기가 많이 다르다. node 를 이용한 LinkedList, Tree 자료구조를 다뤄야 하는 문제가 흔하다. 백준에서는 거의 접해본 기억이 없다.</p>
+<p> </p>
+<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#719e07">class</span> <span style="color:#268bd2">Solution</span>:
+    <span style="color:#719e07">def</span> <span style="color:#268bd2">search</span>(<span style="color:#268bd2">self</span>, nums: List[<span style="color:#b58900">int</span>], target: <span style="color:#b58900">int</span>) <span style="color:#719e07">-&gt;</span> <span style="color:#b58900">int</span>:
+        <span style="color:#719e07">def</span> <span style="color:#268bd2">binary_search</span>(lst, low, hi, target):
+            mid <span style="color:#719e07">=</span> low <span style="color:#719e07">+</span> ((hi <span style="color:#719e07">-</span> low) <span style="color:#719e07">//</span> <span style="color:#2aa198">2</span>)
+            <span style="color:#719e07">if</span> low <span style="color:#719e07">&gt;</span> hi:
+                <span style="color:#719e07">return</span> <span style="color:#719e07">-</span><span style="color:#2aa198">1</span>
+            <span style="color:#719e07">elif</span> lst[mid] <span style="color:#719e07">==</span> target:
+                <span style="color:#719e07">return</span> mid
+
+            <span style="color:#719e07">if</span> lst[low] <span style="color:#719e07">&lt;=</span> lst[mid]:
+                <span style="color:#719e07">if</span> lst[low] <span style="color:#719e07">&lt;=</span> target <span style="color:#719e07">&lt;=</span> lst[mid]:
+                    <span style="color:#719e07">return</span> binary_search(lst, low, mid <span style="color:#719e07">-</span> <span style="color:#2aa198">1</span>, target)
+                <span style="color:#719e07">else</span>:
+                    <span style="color:#719e07">return</span> binary_search(lst, mid <span style="color:#719e07">+</span> <span style="color:#2aa198">1</span>, hi, target)
+
+            <span style="color:#719e07">else</span>:
+                <span style="color:#719e07">if</span> lst[mid] <span style="color:#719e07">&lt;=</span> target <span style="color:#719e07">&lt;=</span> lst[hi]:
+                    <span style="color:#719e07">return</span> binary_search(lst, mid <span style="color:#719e07">+</span> <span style="color:#2aa198">1</span>, hi, target)
+                <span style="color:#719e07">else</span>:
+                    <span style="color:#719e07">return</span> binary_search(lst, low, mid <span style="color:#719e07">-</span> <span style="color:#2aa198">1</span>, target)
+
+        <span style="color:#b58900">id</span> <span style="color:#719e07">=</span> binary_search(nums, <span style="color:#2aa198">0</span>, <span style="color:#b58900">len</span>(nums) <span style="color:#719e07">-</span> <span style="color:#2aa198">1</span>, target)
+        <span style="color:#719e07">return</span> <span style="color:#b58900">id</span>
+</code></pre></div><p><img src="/img/lc33.png" alt="submission"></p>
+
+		</div>
+
+		<div class="post-tags">
+			
+				
+					<nav class="nav tags">
+							<ul class="flat">
+								
+								<li><a href="/tags/sort">sort</a></li>
+								
+								<li><a href="/tags/binary-search">binary search</a></li>
+								
+								<li><a href="/tags/leetcode">leetcode</a></li>
+								
+								<li><a href="/tags/python">python</a></li>
+								
+								<li><a href="/tags/%EB%A6%AC%ED%8A%B8%EC%BD%94%EB%93%9C">리트코드</a></li>
+								
+							</ul>
+					</nav>
+				
+			
+		</div>
+		</div>
+	<div class="article-container"></div>
+		<script
+  src="https://utteranc.es/client.js"
+  repo="coshua/blog-comments"
+  issue-term="pathname"
+  theme="preferred-color-scheme"
+  crossorigin="anonymous"
+  async
+></script>
+
+	</div>
+	
+</body>
+</html>

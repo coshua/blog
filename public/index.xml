@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright notice</copyright>
-    <lastBuildDate>Wed, 16 Jun 2021 23:15:55 -0700</lastBuildDate><atom:link href="https://jutopia.net/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 23 Jun 2021 14:22:28 -0700</lastBuildDate><atom:link href="https://jutopia.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode 33 - Search in rotated sorted array 풀이, 해설, 파이썬</title>
+      <link>https://jutopia.net/algorithm/lc33/</link>
+      <pubDate>Wed, 23 Jun 2021 14:22:28 -0700</pubDate>
+      
+      <guid>https://jutopia.net/algorithm/lc33/</guid>
+      <description>접근  기본적인 배경은 이분 탐색이다. 현재 pivot 기준으로 왼쪽을 봐야할지, 오른쪽을 봐야할지 조건을 생각하는 것이 관건이다.</description>
+    </item>
+    
     <item>
       <title>Effective Java - 챕터 2 Item 7-8</title>
       <link>https://jutopia.net/tech/effective-java_ch2/</link>
