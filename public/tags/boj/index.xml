@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright notice</copyright>
-    <lastBuildDate>Wed, 16 Jun 2021 17:16:53 -0700</lastBuildDate><atom:link href="https://jutopia.net/tags/boj/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Jun 2021 15:46:18 -0700</lastBuildDate><atom:link href="https://jutopia.net/tags/boj/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>백준 10942 팰린드롬? - 파이썬</title>
+      <link>https://jutopia.net/algorithm/boj10942/</link>
+      <pubDate>Sat, 26 Jun 2021 15:46:18 -0700</pubDate>
+      
+      <guid>https://jutopia.net/algorithm/boj10942/</guid>
+      <description>접근  s 와 e 를 받아서 2차원 배열로 각각의 질문에 O(1) 에 답하는 것이 목표이다.</description>
+    </item>
+    
     <item>
       <title>백준 2616 소형기관차 - 파이썬</title>
       <link>https://jutopia.net/algorithm/boj2616/</link>

@@ -7,7 +7,43 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright notice</copyright>
-    <lastBuildDate>Wed, 23 Jun 2021 14:22:28 -0700</lastBuildDate><atom:link href="https://jutopia.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Jun 2021 15:46:18 -0700</lastBuildDate><atom:link href="https://jutopia.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>boj</title>
+      <link>https://jutopia.net/tags/boj/</link>
+      <pubDate>Sat, 26 Jun 2021 15:46:18 -0700</pubDate>
+      
+      <guid>https://jutopia.net/tags/boj/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dp</title>
+      <link>https://jutopia.net/tags/dp/</link>
+      <pubDate>Sat, 26 Jun 2021 15:46:18 -0700</pubDate>
+      
+      <guid>https://jutopia.net/tags/dp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://jutopia.net/tags/python/</link>
+      <pubDate>Sat, 26 Jun 2021 15:46:18 -0700</pubDate>
+      
+      <guid>https://jutopia.net/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>다이나믹 프로그래밍</title>
+      <link>https://jutopia.net/tags/%EB%8B%A4%EC%9D%B4%EB%82%98%EB%AF%B9-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/</link>
+      <pubDate>Sat, 26 Jun 2021 15:46:18 -0700</pubDate>
+      
+      <guid>https://jutopia.net/tags/%EB%8B%A4%EC%9D%B4%EB%82%98%EB%AF%B9-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>binary search</title>
       <link>https://jutopia.net/tags/binary-search/</link>
@@ -23,15 +59,6 @@
       <pubDate>Wed, 23 Jun 2021 14:22:28 -0700</pubDate>
       
       <guid>https://jutopia.net/tags/leetcode/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>python</title>
-      <link>https://jutopia.net/tags/python/</link>
-      <pubDate>Wed, 23 Jun 2021 14:22:28 -0700</pubDate>
-      
-      <guid>https://jutopia.net/tags/python/</guid>
       <description></description>
     </item>
     
@@ -135,38 +162,11 @@
     </item>
     
     <item>
-      <title>boj</title>
-      <link>https://jutopia.net/tags/boj/</link>
-      <pubDate>Wed, 16 Jun 2021 17:16:53 -0700</pubDate>
-      
-      <guid>https://jutopia.net/tags/boj/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>dp</title>
-      <link>https://jutopia.net/tags/dp/</link>
-      <pubDate>Wed, 16 Jun 2021 17:16:53 -0700</pubDate>
-      
-      <guid>https://jutopia.net/tags/dp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>window-slicing</title>
       <link>https://jutopia.net/tags/window-slicing/</link>
       <pubDate>Wed, 16 Jun 2021 17:16:53 -0700</pubDate>
       
       <guid>https://jutopia.net/tags/window-slicing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>다이나믹 프로그래밍</title>
-      <link>https://jutopia.net/tags/%EB%8B%A4%EC%9D%B4%EB%82%98%EB%AF%B9-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/</link>
-      <pubDate>Wed, 16 Jun 2021 17:16:53 -0700</pubDate>
-      
-      <guid>https://jutopia.net/tags/%EB%8B%A4%EC%9D%B4%EB%82%98%EB%AF%B9-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/</guid>
       <description></description>
     </item>
     
