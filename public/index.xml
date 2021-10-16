@@ -7,7 +7,43 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright notice</copyright>
-    <lastBuildDate>Sat, 26 Jun 2021 19:54:19 -0700</lastBuildDate><atom:link href="https://jutopia.net/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Oct 2021 18:28:22 -0700</lastBuildDate><atom:link href="https://jutopia.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode 1567. Maximum Length of Subarray with Positive Product 해설, 풀이, 파이썬</title>
+      <link>https://jutopia.net/algorithm/lc1567/</link>
+      <pubDate>Fri, 15 Oct 2021 18:28:22 -0700</pubDate>
+      
+      <guid>https://jutopia.net/algorithm/lc1567/</guid>
+      <description>접근  linear 로 훝으며 모든 값을 곱하며 진행한다. 메모리 절약을 위해 부호만 기록한다. 각 index 에서 여태의 곱연산 부호에 따라 조건부로 최대 부분 수열 길이를 갱신한다.</description>
+    </item>
+    
+    <item>
+      <title>LeetCode 45. Jump Game II 풀이, 해설, 파이썬</title>
+      <link>https://jutopia.net/algorithm/lc45/</link>
+      <pubDate>Thu, 14 Oct 2021 17:03:10 -0700</pubDate>
+      
+      <guid>https://jutopia.net/algorithm/lc45/</guid>
+      <description>접근  현재 pointer 와 닿을 수 있는 최대 거리인 reach, 점프 횟수 카운트, 새로운 reach 후보 변수인 temp 네 가지 변수를 이용한다.</description>
+    </item>
+    
+    <item>
+      <title>LeetCode 55. Jump Game 풀이, 해설, 파이썬</title>
+      <link>https://jutopia.net/algorithm/lc55/</link>
+      <pubDate>Wed, 13 Oct 2021 20:18:42 -0700</pubDate>
+      
+      <guid>https://jutopia.net/algorithm/lc55/</guid>
+      <description>접근  현재 pointer 와 닿을 수 있는 최대 거리인 reach 두 변수를 이용한다. 닿는 index 중 가장 멀리까지 갈 수 있는 reach 로 계속해서 업데이트 한다.</description>
+    </item>
+    
+    <item>
+      <title>LeetCode 213. House Robber II 풀이, 해설, 파이썬</title>
+      <link>https://jutopia.net/algorithm/lc213/</link>
+      <pubDate>Tue, 12 Oct 2021 18:52:54 -0700</pubDate>
+      
+      <guid>https://jutopia.net/algorithm/lc213/</guid>
+      <description>접근  처음과 마지막이 접하기 때문에 House Robber I 과 다른 방식을 생각해야한다. 첫번째 집을 털면 마지막 집은 고려할 필요가 없다.</description>
+    </item>
+    
     <item>
       <title>백준 2143 두 배열의 합 - 파이썬</title>
       <link>https://jutopia.net/algorithm/boj2143/</link>

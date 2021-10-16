@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>leetcode on 동주의 세상</title>
-    <link>https://jutopia.net/tags/leetcode/</link>
-    <description>Recent content in leetcode on 동주의 세상</description>
+    <title>릿코드 on 동주의 세상</title>
+    <link>https://jutopia.net/tags/%EB%A6%BF%EC%BD%94%EB%93%9C/</link>
+    <description>Recent content in 릿코드 on 동주의 세상</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright notice</copyright>
-    <lastBuildDate>Fri, 15 Oct 2021 18:28:22 -0700</lastBuildDate><atom:link href="https://jutopia.net/tags/leetcode/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Oct 2021 18:28:22 -0700</lastBuildDate><atom:link href="https://jutopia.net/tags/%EB%A6%BF%EC%BD%94%EB%93%9C/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LeetCode 1567. Maximum Length of Subarray with Positive Product 해설, 풀이, 파이썬</title>
       <link>https://jutopia.net/algorithm/lc1567/</link>
@@ -42,15 +42,6 @@
       
       <guid>https://jutopia.net/algorithm/lc213/</guid>
       <description>접근  처음과 마지막이 접하기 때문에 House Robber I 과 다른 방식을 생각해야한다. 첫번째 집을 털면 마지막 집은 고려할 필요가 없다.</description>
-    </item>
-    
-    <item>
-      <title>LeetCode 33 - Search in rotated sorted array 풀이, 해설, 파이썬</title>
-      <link>https://jutopia.net/algorithm/lc33/</link>
-      <pubDate>Wed, 23 Jun 2021 14:22:28 -0700</pubDate>
-      
-      <guid>https://jutopia.net/algorithm/lc33/</guid>
-      <description>접근  기본적인 배경은 이분 탐색이다. 현재 pivot 기준으로 왼쪽을 봐야할지, 오른쪽을 봐야할지 조건을 생각하는 것이 관건이다.</description>
     </item>
     
   </channel>

@@ -7,7 +7,79 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright notice</copyright>
-    <lastBuildDate>Sat, 26 Jun 2021 19:54:19 -0700</lastBuildDate><atom:link href="https://jutopia.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Oct 2021 18:28:22 -0700</lastBuildDate><atom:link href="https://jutopia.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>dp</title>
+      <link>https://jutopia.net/tags/dp/</link>
+      <pubDate>Fri, 15 Oct 2021 18:28:22 -0700</pubDate>
+      
+      <guid>https://jutopia.net/tags/dp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dynamic programming</title>
+      <link>https://jutopia.net/tags/dynamic-programming/</link>
+      <pubDate>Fri, 15 Oct 2021 18:28:22 -0700</pubDate>
+      
+      <guid>https://jutopia.net/tags/dynamic-programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>leetcode</title>
+      <link>https://jutopia.net/tags/leetcode/</link>
+      <pubDate>Fri, 15 Oct 2021 18:28:22 -0700</pubDate>
+      
+      <guid>https://jutopia.net/tags/leetcode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://jutopia.net/tags/python/</link>
+      <pubDate>Fri, 15 Oct 2021 18:28:22 -0700</pubDate>
+      
+      <guid>https://jutopia.net/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>개발자</title>
+      <link>https://jutopia.net/tags/%EA%B0%9C%EB%B0%9C%EC%9E%90/</link>
+      <pubDate>Fri, 15 Oct 2021 18:28:22 -0700</pubDate>
+      
+      <guid>https://jutopia.net/tags/%EA%B0%9C%EB%B0%9C%EC%9E%90/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>릿코드</title>
+      <link>https://jutopia.net/tags/%EB%A6%BF%EC%BD%94%EB%93%9C/</link>
+      <pubDate>Fri, 15 Oct 2021 18:28:22 -0700</pubDate>
+      
+      <guid>https://jutopia.net/tags/%EB%A6%BF%EC%BD%94%EB%93%9C/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>미국</title>
+      <link>https://jutopia.net/tags/%EB%AF%B8%EA%B5%AD/</link>
+      <pubDate>Fri, 15 Oct 2021 18:28:22 -0700</pubDate>
+      
+      <guid>https://jutopia.net/tags/%EB%AF%B8%EA%B5%AD/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>취업준비</title>
+      <link>https://jutopia.net/tags/%EC%B7%A8%EC%97%85%EC%A4%80%EB%B9%84/</link>
+      <pubDate>Fri, 15 Oct 2021 18:28:22 -0700</pubDate>
+      
+      <guid>https://jutopia.net/tags/%EC%B7%A8%EC%97%85%EC%A4%80%EB%B9%84/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>boj</title>
       <link>https://jutopia.net/tags/boj/</link>
@@ -36,29 +108,11 @@
     </item>
     
     <item>
-      <title>python</title>
-      <link>https://jutopia.net/tags/python/</link>
-      <pubDate>Sat, 26 Jun 2021 19:54:19 -0700</pubDate>
-      
-      <guid>https://jutopia.net/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>해쉬</title>
       <link>https://jutopia.net/tags/%ED%95%B4%EC%89%AC/</link>
       <pubDate>Sat, 26 Jun 2021 19:54:19 -0700</pubDate>
       
       <guid>https://jutopia.net/tags/%ED%95%B4%EC%89%AC/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>dp</title>
-      <link>https://jutopia.net/tags/dp/</link>
-      <pubDate>Sat, 26 Jun 2021 15:46:18 -0700</pubDate>
-      
-      <guid>https://jutopia.net/tags/dp/</guid>
       <description></description>
     </item>
     
@@ -77,15 +131,6 @@
       <pubDate>Wed, 23 Jun 2021 14:22:28 -0700</pubDate>
       
       <guid>https://jutopia.net/tags/binary-search/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>leetcode</title>
-      <link>https://jutopia.net/tags/leetcode/</link>
-      <pubDate>Wed, 23 Jun 2021 14:22:28 -0700</pubDate>
-      
-      <guid>https://jutopia.net/tags/leetcode/</guid>
       <description></description>
     </item>
     
