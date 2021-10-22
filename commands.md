@@ -6,3 +6,6 @@ create a post
 hugo new path.md
 
 사진은 themes 에 넣기
+
+commit
+.\deploy.sh
