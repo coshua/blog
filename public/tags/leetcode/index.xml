@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright notice</copyright>
-    <lastBuildDate>Fri, 15 Oct 2021 18:28:22 -0700</lastBuildDate><atom:link href="https://jutopia.net/tags/leetcode/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Oct 2021 12:59:56 -0700</lastBuildDate><atom:link href="https://jutopia.net/tags/leetcode/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode 139. Work Break 파이썬, 풀이, 해설</title>
+      <link>https://jutopia.net/algorithm/lc139/</link>
+      <pubDate>Fri, 22 Oct 2021 12:59:56 -0700</pubDate>
+      
+      <guid>https://jutopia.net/algorithm/lc139/</guid>
+      <description>접근  dp 는 s의 현재 index를 단어의 끝으로 가장 길게 완성할 수 있는 시작 index를 가리킨다.</description>
+    </item>
+    
     <item>
       <title>LeetCode 1567. Maximum Length of Subarray with Positive Product 해설, 풀이, 파이썬</title>
       <link>https://jutopia.net/algorithm/lc1567/</link>
