@@ -7,56 +7,29 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright notice</copyright>
-    <lastBuildDate>Sun, 24 Oct 2021 21:46:22 -0700</lastBuildDate><atom:link href="https://jutopia.net/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>dp</title>
-      <link>https://jutopia.net/tags/dp/</link>
-      <pubDate>Sun, 24 Oct 2021 21:46:22 -0700</pubDate>
-      
-      <guid>https://jutopia.net/tags/dp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>dynamic programming</title>
-      <link>https://jutopia.net/tags/dynamic-programming/</link>
-      <pubDate>Sun, 24 Oct 2021 21:46:22 -0700</pubDate>
-      
-      <guid>https://jutopia.net/tags/dynamic-programming/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>leetcode</title>
-      <link>https://jutopia.net/tags/leetcode/</link>
-      <pubDate>Sun, 24 Oct 2021 21:46:22 -0700</pubDate>
-      
-      <guid>https://jutopia.net/tags/leetcode/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>python</title>
-      <link>https://jutopia.net/tags/python/</link>
-      <pubDate>Sun, 24 Oct 2021 21:46:22 -0700</pubDate>
-      
-      <guid>https://jutopia.net/tags/python/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Tue, 26 Jul 2022 15:04:19 +0900</lastBuildDate><atom:link href="https://jutopia.net/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>개발자</title>
       <link>https://jutopia.net/tags/%EA%B0%9C%EB%B0%9C%EC%9E%90/</link>
-      <pubDate>Sun, 24 Oct 2021 21:46:22 -0700</pubDate>
+      <pubDate>Tue, 26 Jul 2022 15:04:19 +0900</pubDate>
       
       <guid>https://jutopia.net/tags/%EA%B0%9C%EB%B0%9C%EC%9E%90/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>공부</title>
+      <link>https://jutopia.net/tags/%EA%B3%B5%EB%B6%80/</link>
+      <pubDate>Tue, 26 Jul 2022 15:04:19 +0900</pubDate>
+      
+      <guid>https://jutopia.net/tags/%EA%B3%B5%EB%B6%80/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>릿코드</title>
       <link>https://jutopia.net/tags/%EB%A6%BF%EC%BD%94%EB%93%9C/</link>
-      <pubDate>Sun, 24 Oct 2021 21:46:22 -0700</pubDate>
+      <pubDate>Tue, 26 Jul 2022 15:04:19 +0900</pubDate>
       
       <guid>https://jutopia.net/tags/%EB%A6%BF%EC%BD%94%EB%93%9C/</guid>
       <description></description>
@@ -65,16 +38,61 @@
     <item>
       <title>미국</title>
       <link>https://jutopia.net/tags/%EB%AF%B8%EA%B5%AD/</link>
-      <pubDate>Sun, 24 Oct 2021 21:46:22 -0700</pubDate>
+      <pubDate>Tue, 26 Jul 2022 15:04:19 +0900</pubDate>
       
       <guid>https://jutopia.net/tags/%EB%AF%B8%EA%B5%AD/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>취준</title>
+      <link>https://jutopia.net/tags/%EC%B7%A8%EC%A4%80/</link>
+      <pubDate>Tue, 26 Jul 2022 15:04:19 +0900</pubDate>
+      
+      <guid>https://jutopia.net/tags/%EC%B7%A8%EC%A4%80/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dp</title>
+      <link>https://jutopia.net/tags/dp/</link>
+      <pubDate>Fri, 29 Oct 2021 21:46:22 -0700</pubDate>
+      
+      <guid>https://jutopia.net/tags/dp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dynamic programming</title>
+      <link>https://jutopia.net/tags/dynamic-programming/</link>
+      <pubDate>Fri, 29 Oct 2021 21:46:22 -0700</pubDate>
+      
+      <guid>https://jutopia.net/tags/dynamic-programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>leetcode</title>
+      <link>https://jutopia.net/tags/leetcode/</link>
+      <pubDate>Fri, 29 Oct 2021 21:46:22 -0700</pubDate>
+      
+      <guid>https://jutopia.net/tags/leetcode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://jutopia.net/tags/python/</link>
+      <pubDate>Fri, 29 Oct 2021 21:46:22 -0700</pubDate>
+      
+      <guid>https://jutopia.net/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>취업준비</title>
       <link>https://jutopia.net/tags/%EC%B7%A8%EC%97%85%EC%A4%80%EB%B9%84/</link>
-      <pubDate>Sun, 24 Oct 2021 21:46:22 -0700</pubDate>
+      <pubDate>Fri, 29 Oct 2021 21:46:22 -0700</pubDate>
       
       <guid>https://jutopia.net/tags/%EC%B7%A8%EC%97%85%EC%A4%80%EB%B9%84/</guid>
       <description></description>
@@ -194,15 +212,6 @@
       <pubDate>Wed, 16 Jun 2021 23:15:55 -0700</pubDate>
       
       <guid>https://jutopia.net/tags/%EA%B0%9C%EB%B0%9C/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>공부</title>
-      <link>https://jutopia.net/tags/%EA%B3%B5%EB%B6%80/</link>
-      <pubDate>Wed, 16 Jun 2021 23:15:55 -0700</pubDate>
-      
-      <guid>https://jutopia.net/tags/%EA%B3%B5%EB%B6%80/</guid>
       <description></description>
     </item>
     

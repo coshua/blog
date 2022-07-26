@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright notice</copyright>
-    <lastBuildDate>Sun, 24 Oct 2021 21:46:22 -0700</lastBuildDate><atom:link href="https://jutopia.net/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 29 Oct 2021 21:46:22 -0700</lastBuildDate><atom:link href="https://jutopia.net/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode 302. Range Sum Query 2D - Immutable 파이썬, 해설, 풀이</title>
+      <link>https://jutopia.net/algorithm/lc304/</link>
+      <pubDate>Fri, 29 Oct 2021 21:46:22 -0700</pubDate>
+      
+      <guid>https://jutopia.net/algorithm/lc304/</guid>
+      <description>사고 같은 크기의 matrix 에 0, 0 부터 현재 index 까지 만들어지는 사각형 sum 을 저장하는 방식이 쉬우면서도 효율적인 접근이다.</description>
+    </item>
+    
     <item>
       <title>LeetCode 96. Unique Binary Search Trees 파이썬, 해설, 풀이</title>
       <link>https://jutopia.net/algorithm/lc96/</link>
