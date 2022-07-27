@@ -9,11 +9,47 @@
     <copyright>© Copyright notice</copyright>
     <lastBuildDate>Wed, 27 Jul 2022 11:04:15 +0900</lastBuildDate><atom:link href="https://jutopia.net/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>binarysearch leetcode python 해외취준</title>
-      <link>https://jutopia.net/tags/binarysearch-leetcode-python-%ED%95%B4%EC%99%B8%EC%B7%A8%EC%A4%80/</link>
+      <title>binary-search</title>
+      <link>https://jutopia.net/tags/binary-search/</link>
       <pubDate>Wed, 27 Jul 2022 11:04:15 +0900</pubDate>
       
-      <guid>https://jutopia.net/tags/binarysearch-leetcode-python-%ED%95%B4%EC%99%B8%EC%B7%A8%EC%A4%80/</guid>
+      <guid>https://jutopia.net/tags/binary-search/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>leetcode</title>
+      <link>https://jutopia.net/tags/leetcode/</link>
+      <pubDate>Wed, 27 Jul 2022 11:04:15 +0900</pubDate>
+      
+      <guid>https://jutopia.net/tags/leetcode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://jutopia.net/tags/python/</link>
+      <pubDate>Wed, 27 Jul 2022 11:04:15 +0900</pubDate>
+      
+      <guid>https://jutopia.net/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>이분탐색</title>
+      <link>https://jutopia.net/tags/%EC%9D%B4%EB%B6%84%ED%83%90%EC%83%89/</link>
+      <pubDate>Wed, 27 Jul 2022 11:04:15 +0900</pubDate>
+      
+      <guid>https://jutopia.net/tags/%EC%9D%B4%EB%B6%84%ED%83%90%EC%83%89/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>해외취준</title>
+      <link>https://jutopia.net/tags/%ED%95%B4%EC%99%B8%EC%B7%A8%EC%A4%80/</link>
+      <pubDate>Wed, 27 Jul 2022 11:04:15 +0900</pubDate>
+      
+      <guid>https://jutopia.net/tags/%ED%95%B4%EC%99%B8%EC%B7%A8%EC%A4%80/</guid>
       <description></description>
     </item>
     
@@ -81,24 +117,6 @@
     </item>
     
     <item>
-      <title>leetcode</title>
-      <link>https://jutopia.net/tags/leetcode/</link>
-      <pubDate>Fri, 29 Oct 2021 21:46:22 -0700</pubDate>
-      
-      <guid>https://jutopia.net/tags/leetcode/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>python</title>
-      <link>https://jutopia.net/tags/python/</link>
-      <pubDate>Fri, 29 Oct 2021 21:46:22 -0700</pubDate>
-      
-      <guid>https://jutopia.net/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>취업준비</title>
       <link>https://jutopia.net/tags/%EC%B7%A8%EC%97%85%EC%A4%80%EB%B9%84/</link>
       <pubDate>Fri, 29 Oct 2021 21:46:22 -0700</pubDate>
@@ -149,15 +167,6 @@
       <pubDate>Sat, 26 Jun 2021 15:46:18 -0700</pubDate>
       
       <guid>https://jutopia.net/tags/%EB%8B%A4%EC%9D%B4%EB%82%98%EB%AF%B9-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>binary search</title>
-      <link>https://jutopia.net/tags/binary-search/</link>
-      <pubDate>Wed, 23 Jun 2021 14:22:28 -0700</pubDate>
-      
-      <guid>https://jutopia.net/tags/binary-search/</guid>
       <description></description>
     </item>
     
