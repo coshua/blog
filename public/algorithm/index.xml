@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright notice</copyright>
-    <lastBuildDate>Tue, 26 Jul 2022 15:04:19 +0900</lastBuildDate><atom:link href="https://jutopia.net/algorithm/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 Jul 2022 11:04:15 +0900</lastBuildDate><atom:link href="https://jutopia.net/algorithm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode 1870, Minimum Speed to Arrive on Time 파이썬, 해설, 풀이</title>
+      <link>https://jutopia.net/algorithm/lc1870/</link>
+      <pubDate>Wed, 27 Jul 2022 11:04:15 +0900</pubDate>
+      
+      <guid>https://jutopia.net/algorithm/lc1870/</guid>
+      <description>접근  가능한 속도 1 과 10^7 사이에서 binary search 로 최소 속도를 찾는다. 각 속도마다 train list 를 돌며 걸리는 시간을 계산에서 binary search range 를 조정한다.</description>
+    </item>
+    
     <item>
       <title>LeetCode 167,Two Sum II - Input Array Is Sorted 파이썬 해설 풀이</title>
       <link>https://jutopia.net/algorithm/lc167/</link>
