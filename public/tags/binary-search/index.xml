@@ -14,7 +14,7 @@
       <pubDate>Fri, 29 Jul 2022 14:53:14 +0900</pubDate>
       
       <guid>https://jutopia.net/algorithm/lc1146/</guid>
-      <description>LeetCode 1146, Snapshot Array
+      <description>LeetCode 1146, Snapshot Array{: target=&amp;quot;_blank&amp;quot;}
 접근  length 로 2차원 배열(arr)을 초기화한다. snap_id 를 기억하는 변수를 지정한다.</description>
     </item>
     
