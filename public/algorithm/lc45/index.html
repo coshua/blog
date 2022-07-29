@@ -85,7 +85,7 @@
 <li>따라서 pointer 가 linear 로 진행하는 것이 곧 시간복잡도 O(n) 이 되며 최적해이다.</li>
 </ol>
 <h4 id="사고"><strong>사고</strong></h4>
-<p>앞선 <a href="https://www.jutopia.net/algorithm/lc55/">Jump Game</a> 과 다른 점은 reach 를 계속 업데이트 하지 않고 후보군을 끝까지 탐색 후 jump++ 와 reach 변수 재지정이 이루어지는 것이다. 그렇게 뜨문 뜨문 갱신되는 reach 내에서 loop를 반복적으로 돌아준다.</p>
+<p>앞선 <a href="https://www.jutopia.net/algorithm/lc55/" target="_blank">Jump Game</a> 과 다른 점은 reach 를 계속 업데이트 하지 않고 후보군을 끝까지 탐색 후 jump++ 와 reach 변수 재지정이 이루어지는 것이다. 그렇게 뜨문 뜨문 갱신되는 reach 내에서 loop를 반복적으로 돌아준다.</p>
 <p> </p>
 <div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#719e07">class</span> <span style="color:#268bd2">Solution</span>:
     <span style="color:#719e07">def</span> <span style="color:#268bd2">jump</span>(<span style="color:#268bd2">self</span>, nums: <span style="color:#b58900">list</span>[<span style="color:#b58900">int</span>]) <span style="color:#719e07">-&gt;</span> <span style="color:#b58900">int</span>:
