@@ -7,22 +7,49 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright notice</copyright>
-    <lastBuildDate>Wed, 27 Jul 2022 11:04:15 +0900</lastBuildDate><atom:link href="https://jutopia.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 29 Jul 2022 14:53:14 +0900</lastBuildDate><atom:link href="https://jutopia.net/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>binary-search</title>
       <link>https://jutopia.net/tags/binary-search/</link>
-      <pubDate>Wed, 27 Jul 2022 11:04:15 +0900</pubDate>
+      <pubDate>Fri, 29 Jul 2022 14:53:14 +0900</pubDate>
       
       <guid>https://jutopia.net/tags/binary-search/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>implementation</title>
+      <link>https://jutopia.net/tags/implementation/</link>
+      <pubDate>Fri, 29 Jul 2022 14:53:14 +0900</pubDate>
+      
+      <guid>https://jutopia.net/tags/implementation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>leetcode</title>
       <link>https://jutopia.net/tags/leetcode/</link>
-      <pubDate>Wed, 27 Jul 2022 11:04:15 +0900</pubDate>
+      <pubDate>Fri, 29 Jul 2022 14:53:14 +0900</pubDate>
       
       <guid>https://jutopia.net/tags/leetcode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dictionary</title>
+      <link>https://jutopia.net/tags/dictionary/</link>
+      <pubDate>Thu, 28 Jul 2022 09:35:29 +0900</pubDate>
+      
+      <guid>https://jutopia.net/tags/dictionary/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>파이썬</title>
+      <link>https://jutopia.net/tags/%ED%8C%8C%EC%9D%B4%EC%8D%AC/</link>
+      <pubDate>Thu, 28 Jul 2022 09:35:29 +0900</pubDate>
+      
+      <guid>https://jutopia.net/tags/%ED%8C%8C%EC%9D%B4%EC%8D%AC/</guid>
       <description></description>
     </item>
     
@@ -131,15 +158,6 @@
       <pubDate>Sat, 26 Jun 2021 19:54:19 -0700</pubDate>
       
       <guid>https://jutopia.net/tags/boj/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>dictionary</title>
-      <link>https://jutopia.net/tags/dictionary/</link>
-      <pubDate>Sat, 26 Jun 2021 19:54:19 -0700</pubDate>
-      
-      <guid>https://jutopia.net/tags/dictionary/</guid>
       <description></description>
     </item>
     
@@ -284,15 +302,6 @@
       <pubDate>Wed, 16 Jun 2021 17:16:53 -0700</pubDate>
       
       <guid>https://jutopia.net/tags/%EC%9C%88%EB%8F%84%EC%9A%B0-%EC%8A%AC%EB%9D%BC%EC%9D%B4%EC%8B%B1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>파이썬</title>
-      <link>https://jutopia.net/tags/%ED%8C%8C%EC%9D%B4%EC%8D%AC/</link>
-      <pubDate>Wed, 16 Jun 2021 17:16:53 -0700</pubDate>
-      
-      <guid>https://jutopia.net/tags/%ED%8C%8C%EC%9D%B4%EC%8D%AC/</guid>
       <description></description>
     </item>
     

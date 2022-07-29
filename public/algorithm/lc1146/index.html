@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>LeetCode 1146, Snapshot Array 파이썬, 풀이, 해설 - 동주의 세상</title><link rel="icon" type="image/png" href=icons/myicon.png /><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="LeetCode 1146, Snapshot Array 파이썬, 풀이, 해설" />
+<meta property="og:description" content="LeetCode 1146, Snapshot Array
+접근  length 로 2차원 배열(arr)을 초기화한다. snap_id 를 기억하는 변수를 지정한다." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://jutopia.net/algorithm/lc1146/" /><meta property="article:section" content="algorithm" />
+<meta property="article:published_time" content="2022-07-29T14:53:14&#43;09:00" />
+<meta property="article:modified_time" content="2022-07-29T14:53:14&#43;09:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="LeetCode 1146, Snapshot Array 파이썬, 풀이, 해설"/>
+<meta name="twitter:description" content="LeetCode 1146, Snapshot Array
+접근  length 로 2차원 배열(arr)을 초기화한다. snap_id 를 기억하는 변수를 지정한다."/>
+<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:200,300" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" media="screen" href="https://jutopia.net/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://jutopia.net/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="https://jutopia.net/css/custom.css" />
+	<link rel="stylesheet" type="text/css" href="https://jutopia.net/css/dark.css" media="(prefers-color-scheme: dark)" />
+	<link rel="stylesheet" type="text/css" href="https://jutopia.net/css/custom-dark.css" media="(prefers-color-scheme: dark)" />
+
+	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+	<script src="https://jutopia.net/js/main.js"></script>
+	<script src="https://jutopia.net/js/abc.js"></script>
+	<script src="https://jutopia.net/js/xyz.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+
+<body>
+	<div class="container wrapper post">
+		<div class="header">
+	<base href="https://jutopia.net/">
+	<h1 class="site-title"><a href="https://jutopia.net/">동주의 세상</a></h1>
+	<div class="site-description"><h2>Clean and minimal personal blog</h2><nav class="nav social">
+			<ul class="flat"><a href="https://github.com/coshua" title="Github"><i data-feather="github"></i></a><a href="https://twitter.com" title="Twitter"><i data-feather="twitter"></i></a></ul>
+		</nav>
+	</div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li>
+				<a href="/">Home</a>
+			</li>
+			
+			<li>
+				<a href="/post">Essay</a>
+			</li>
+			
+			<li>
+				<a href="/algorithm">Algorithm</a>
+			</li>
+			
+			<li>
+				<a href="/tech">Tech</a>
+			</li>
+			
+			<li>
+				<a href="/tags">Tags</a>
+			</li>
+			
+			<li>
+				<a href="/about">About</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post-header">
+			<h1 class="title">LeetCode 1146, Snapshot Array 파이썬, 풀이, 해설</h1>
+			<div class="meta">Posted at &mdash; Jul 29, 2022</div>
+		</div>
+
+		<div class="markdown">
+			<p><a href="https://leetcode.com/problems/snapshot-array/">LeetCode 1146, Snapshot Array</a></p>
+<h4 id="접근"><strong>접근</strong></h4>
+<ol>
+<li>length 로 2차원 배열(arr)을 초기화한다. snap_id 를 기억하는 변수를 지정한다. 차지하게 되는 총 메모리는 length + S (number of calls of set()) 이다.</li>
+<li>set 마다 해당 index 에 현재 snap_id 와 value 를 추가한다.</li>
+<li>모든 range 내의 i에 대하여 arr[i] 는 오름차순으로 정렬되어있기에 get() 에서 bisect 로 적절한 snap_id 를 찾아 해당하는 value 를 리턴한다.</li>
+</ol>
+<h4 id="사고"><strong>사고</strong></h4>
+<p> </p>
+<p>처음에 이 코드로 냈는데 get과 set 모두 엉성하다.. bisect에 대한 예쁜 이해가 없어서 그렇다.</p>
+<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#719e07">import</span> bisect
+<span style="color:#719e07">class</span> <span style="color:#268bd2">SnapshotArray</span>:
+    arr <span style="color:#719e07">=</span> <span style="color:#268bd2">None</span>
+    cnt <span style="color:#719e07">=</span> <span style="color:#268bd2">None</span>
+
+    <span style="color:#719e07">def</span> __init__(<span style="color:#268bd2">self</span>, length: <span style="color:#b58900">int</span>):
+        <span style="color:#268bd2">self</span><span style="color:#719e07">.</span>arr <span style="color:#719e07">=</span> [[[<span style="color:#2aa198">0</span>, <span style="color:#2aa198">0</span>]] <span style="color:#719e07">for</span> i <span style="color:#719e07">in</span> <span style="color:#b58900">range</span>(length)]
+        <span style="color:#268bd2">self</span><span style="color:#719e07">.</span>cnt <span style="color:#719e07">=</span> <span style="color:#2aa198">0</span>
+
+    <span style="color:#719e07">def</span> <span style="color:#268bd2">set</span>(<span style="color:#268bd2">self</span>, index: <span style="color:#b58900">int</span>, val: <span style="color:#b58900">int</span>) <span style="color:#719e07">-&gt;</span> <span style="color:#268bd2">None</span>:
+        <span style="color:#719e07">if</span> <span style="color:#268bd2">self</span><span style="color:#719e07">.</span>arr[index][<span style="color:#719e07">-</span><span style="color:#2aa198">1</span>][<span style="color:#2aa198">0</span>] <span style="color:#719e07">==</span> <span style="color:#268bd2">self</span><span style="color:#719e07">.</span>cnt:
+            <span style="color:#268bd2">self</span><span style="color:#719e07">.</span>arr[index][<span style="color:#719e07">-</span><span style="color:#2aa198">1</span>][<span style="color:#2aa198">1</span>] <span style="color:#719e07">=</span> val
+        <span style="color:#719e07">else</span>:
+            <span style="color:#268bd2">self</span><span style="color:#719e07">.</span>arr[index]<span style="color:#719e07">.</span>append([<span style="color:#268bd2">self</span><span style="color:#719e07">.</span>cnt, val])
+
+    <span style="color:#719e07">def</span> <span style="color:#268bd2">snap</span>(<span style="color:#268bd2">self</span>) <span style="color:#719e07">-&gt;</span> <span style="color:#b58900">int</span>:
+        <span style="color:#268bd2">self</span><span style="color:#719e07">.</span>cnt <span style="color:#719e07">+=</span> <span style="color:#2aa198">1</span>
+        <span style="color:#719e07">return</span> <span style="color:#268bd2">self</span><span style="color:#719e07">.</span>cnt <span style="color:#719e07">-</span> <span style="color:#2aa198">1</span>
+
+    <span style="color:#719e07">def</span> <span style="color:#268bd2">get</span>(<span style="color:#268bd2">self</span>, index: <span style="color:#b58900">int</span>, snap_id: <span style="color:#b58900">int</span>) <span style="color:#719e07">-&gt;</span> <span style="color:#b58900">int</span>:
+        ans <span style="color:#719e07">=</span> bisect<span style="color:#719e07">.</span>bisect_left(<span style="color:#268bd2">self</span><span style="color:#719e07">.</span>arr[index], snap_id, key<span style="color:#719e07">=</span><span style="color:#719e07">lambda</span> i: i[<span style="color:#2aa198">0</span>])
+        <span style="color:#719e07">if</span> ans <span style="color:#719e07">&gt;=</span> <span style="color:#b58900">len</span>(<span style="color:#268bd2">self</span><span style="color:#719e07">.</span>arr[index]):
+            <span style="color:#719e07">return</span> <span style="color:#268bd2">self</span><span style="color:#719e07">.</span>arr[index][<span style="color:#719e07">-</span><span style="color:#2aa198">1</span>][<span style="color:#2aa198">1</span>]
+        <span style="color:#719e07">elif</span> <span style="color:#268bd2">self</span><span style="color:#719e07">.</span>arr[index][ans][<span style="color:#2aa198">0</span>] <span style="color:#719e07">&gt;</span> snap_id:
+            <span style="color:#719e07">return</span> <span style="color:#268bd2">self</span><span style="color:#719e07">.</span>arr[index][ans <span style="color:#719e07">-</span> <span style="color:#2aa198">1</span>][<span style="color:#2aa198">1</span>]
+        <span style="color:#719e07">else</span>:
+            <span style="color:#719e07">return</span> <span style="color:#268bd2">self</span><span style="color:#719e07">.</span>arr[index][ans][<span style="color:#2aa198">1</span>]
+</code></pre></div><p>discussion 포럼에서 적절한 최적화를 발견했다. 근데 runtime 이 처음엔 차이가 나는게 이해가 안돼서 여러번 submit하니 차이가 없다. 경험상으로 leetcode runtime 환경이 좀 영향을 준다.</p>
+<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#719e07">import</span> bisect
+<span style="color:#719e07">class</span> <span style="color:#268bd2">SnapshotArray</span>:
+    arr <span style="color:#719e07">=</span> <span style="color:#268bd2">None</span>
+    cnt <span style="color:#719e07">=</span> <span style="color:#268bd2">None</span>
+
+    <span style="color:#719e07">def</span> __init__(<span style="color:#268bd2">self</span>, length: <span style="color:#b58900">int</span>):
+        <span style="color:#268bd2">self</span><span style="color:#719e07">.</span>arr <span style="color:#719e07">=</span> [[[<span style="color:#2aa198">0</span>, <span style="color:#2aa198">0</span>]] <span style="color:#719e07">for</span> i <span style="color:#719e07">in</span> <span style="color:#b58900">range</span>(length)]
+        <span style="color:#268bd2">self</span><span style="color:#719e07">.</span>cnt <span style="color:#719e07">=</span> <span style="color:#2aa198">0</span>
+
+    <span style="color:#719e07">def</span> <span style="color:#268bd2">set</span>(<span style="color:#268bd2">self</span>, index: <span style="color:#b58900">int</span>, val: <span style="color:#b58900">int</span>) <span style="color:#719e07">-&gt;</span> <span style="color:#268bd2">None</span>:
+        <span style="color:#719e07">if</span> <span style="color:#268bd2">self</span><span style="color:#719e07">.</span>arr[index][<span style="color:#719e07">-</span><span style="color:#2aa198">1</span>][<span style="color:#2aa198">0</span>] <span style="color:#719e07">==</span> <span style="color:#268bd2">self</span><span style="color:#719e07">.</span>cnt:
+            <span style="color:#268bd2">self</span><span style="color:#719e07">.</span>arr[index][<span style="color:#719e07">-</span><span style="color:#2aa198">1</span>][<span style="color:#2aa198">1</span>] <span style="color:#719e07">=</span> val
+        <span style="color:#719e07">else</span>:
+            <span style="color:#268bd2">self</span><span style="color:#719e07">.</span>arr[index]<span style="color:#719e07">.</span>append([<span style="color:#268bd2">self</span><span style="color:#719e07">.</span>cnt, val])
+
+    <span style="color:#719e07">def</span> <span style="color:#268bd2">snap</span>(<span style="color:#268bd2">self</span>) <span style="color:#719e07">-&gt;</span> <span style="color:#b58900">int</span>:
+        <span style="color:#268bd2">self</span><span style="color:#719e07">.</span>cnt <span style="color:#719e07">+=</span> <span style="color:#2aa198">1</span>
+        <span style="color:#719e07">return</span> <span style="color:#268bd2">self</span><span style="color:#719e07">.</span>cnt <span style="color:#719e07">-</span> <span style="color:#2aa198">1</span>
+
+    <span style="color:#719e07">def</span> <span style="color:#268bd2">get</span>(<span style="color:#268bd2">self</span>, index: <span style="color:#b58900">int</span>, snap_id: <span style="color:#b58900">int</span>) <span style="color:#719e07">-&gt;</span> <span style="color:#b58900">int</span>:
+        ans <span style="color:#719e07">=</span> bisect<span style="color:#719e07">.</span>bisect(<span style="color:#268bd2">self</span><span style="color:#719e07">.</span>arr[index], [snap_id <span style="color:#719e07">+</span> <span style="color:#2aa198">1</span>]) <span style="color:#719e07">-</span> <span style="color:#2aa198">1</span>
+        <span style="color:#719e07">return</span> <span style="color:#268bd2">self</span><span style="color:#719e07">.</span>arr[index][ans][<span style="color:#719e07">-</span><span style="color:#2aa198">1</span>]
+</code></pre></div><p><img src="/img/lc981.png" alt="submission"></p>
+
+		</div>
+
+		<div class="post-tags">
+			
+				
+					<nav class="nav tags">
+							<ul class="flat">
+								
+								<li><a href="/tags/leetcode">leetcode</a></li>
+								
+								<li><a href="/tags/binary-search">binary-search</a></li>
+								
+								<li><a href="/tags/implementation">implementation</a></li>
+								
+							</ul>
+					</nav>
+				
+			
+		</div>
+		</div>
+	<div class="article-container"></div>
+		<script
+  src="https://utteranc.es/client.js"
+  repo="coshua/blog-comments"
+  issue-term="pathname"
+  theme="preferred-color-scheme"
+  crossorigin="anonymous"
+  async
+></script>
+
+	</div>
+	
+</body>
+</html>

@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright notice</copyright>
-    <lastBuildDate>Sat, 26 Jun 2021 19:54:19 -0700</lastBuildDate><atom:link href="https://jutopia.net/tags/dictionary/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 28 Jul 2022 09:35:29 +0900</lastBuildDate><atom:link href="https://jutopia.net/tags/dictionary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode 981, Time Based Key-Value Store 파이썬, 풀이, 해설</title>
+      <link>https://jutopia.net/algorithm/lc981/</link>
+      <pubDate>Thu, 28 Jul 2022 09:35:29 +0900</pubDate>
+      
+      <guid>https://jutopia.net/algorithm/lc981/</guid>
+      <description>접근  dictionary 에 키에 해당하는 리스트를 만들고 오름차순의 input 을 받는다. get 부를때 해당 키의 리스트에서 binary search 로 최댓값을 찾는다.</description>
+    </item>
+    
     <item>
       <title>백준 2143 두 배열의 합 - 파이썬</title>
       <link>https://jutopia.net/algorithm/boj2143/</link>

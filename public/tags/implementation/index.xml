@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>implementation on 동주의 세상</title>
+    <link>https://jutopia.net/tags/implementation/</link>
+    <description>Recent content in implementation on 동주의 세상</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Copyright notice</copyright>
+    <lastBuildDate>Fri, 29 Jul 2022 14:53:14 +0900</lastBuildDate><atom:link href="https://jutopia.net/tags/implementation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode 1146, Snapshot Array 파이썬, 풀이, 해설</title>
+      <link>https://jutopia.net/algorithm/lc1146/</link>
+      <pubDate>Fri, 29 Jul 2022 14:53:14 +0900</pubDate>
+      
+      <guid>https://jutopia.net/algorithm/lc1146/</guid>
+      <description>LeetCode 1146, Snapshot Array
+접근  length 로 2차원 배열(arr)을 초기화한다. snap_id 를 기억하는 변수를 지정한다.</description>
+    </item>
+    
+  </channel>
+</rss>
