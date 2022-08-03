@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright notice</copyright>
-    <lastBuildDate>Fri, 29 Jul 2022 14:53:14 +0900</lastBuildDate><atom:link href="https://jutopia.net/tags/leetcode/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Aug 2022 10:43:23 +0900</lastBuildDate><atom:link href="https://jutopia.net/tags/leetcode/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LeetCode 1011, Capacity To Ship Packages Within D Days 파이썬 풀이 해설</title>
+      <link>https://jutopia.net/algorithm/lc1011/</link>
+      <pubDate>Wed, 03 Aug 2022 10:43:23 +0900</pubDate>
+      
+      <guid>https://jutopia.net/algorithm/lc1011/</guid>
+      <description>LeetCode 1146, Snapshot Array
+접근  binary-search 로 적절한 배의 weight 용량을 찾는다. 처음 lo, hi 는 max(weights), sum(weight) 이다.</description>
+    </item>
+    
     <item>
       <title>LeetCode 1146, Snapshot Array 파이썬, 풀이, 해설</title>
       <link>https://jutopia.net/algorithm/lc1146/</link>
